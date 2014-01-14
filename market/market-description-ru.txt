@@ -1,23 +1,23 @@
-Носите биткоины всегда с собой, в кармане! Платите быстро, сканируя QR-код. Будучи продавцом, получайте платежи быстро и надёжно. Бумажник Dogecoin — первое мобильное приложение для Dogecoin и, возможно, самое безопасное!
+Носите биткоины всегда с собой, в кармане! Платите быстро, сканируя QR-код. Будучи продавцом, получайте платежи быстро и надёжно. Бумажник Monacoin — первое мобильное приложение для Monacoin и, возможно, самое безопасное!
 
 ВОЗМОЖНОСТИ:
 
 • Не нужна ни регистрация, ни веб-сервис, ни облако! Этот бумажник децентрализован и является p2p.
-• Отображение количества биткоинов в DOGE и mDOGE.
+• Отображение количества биткоинов в MONA и mMONA.
 • Конверсия в и из легитимных валют.
-• Поддержка отправки и получения средств через NFC, QR-коды или Dogecoin URL.
+• Поддержка отправки и получения средств через NFC, QR-коды или Monacoin URL.
 • Адресная книга часто используемых адресов.
 • Когда вы не в сети, вы можете платить через Bluetooth.
 • Системные уведомления о получаемых монетах.
-• Виджет для отображения баланса Dogecoin.
+• Виджет для отображения баланса Monacoin.
 
-Вы можете узнать больше о Dogecoin на
-http://dogecoin.org
+Вы можете узнать больше о Monacoin на
+http://monacoin.org
 
-Если вы хотите помочь бумажнику Dogecoin, проект располагается по адресу
-https://github.com/langerhans/dogecoin-wallet-new
+Если вы хотите помочь бумажнику Monacoin, проект располагается по адресу
+https://github.com/keystore00/monacoin-wallet-new
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Dogecoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

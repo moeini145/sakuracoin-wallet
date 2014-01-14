@@ -1,23 +1,23 @@
-﻿Ayez vos Dogecoins toujours avec vous dans votre poche ! Payez rapidement en numérisant un code-QR. En tant que marchant vous recevez les paiements de manière fiable et instantanée. Dogecoin Wallet est la première appli Dogecoin mobile et sans doute aussi la plus sécuritaire !
+﻿Ayez vos Monacoins toujours avec vous dans votre poche ! Payez rapidement en numérisant un code-QR. En tant que marchant vous recevez les paiements de manière fiable et instantanée. Monacoin Wallet est la première appli Monacoin mobile et sans doute aussi la plus sécuritaire !
 
 FONCTIONS :
 
 • Pas d'inscription, de service Web ou de nuage de nécessaire ! Ce portefeuille est décentralisé et de pair-à-pair.
-• Affichage du montant de Dogecoin en DOGE et mDOGE.
+• Affichage du montant de Monacoin en MONA et mMONA.
 • Conversion de et vers des devises nationales.
-• Envoi et réception des Dogecoin via NFC, codes QR ou des URLs Dogecoin.
-• Carnet d'adresse pour les adresses Dogecoin utilisées régulièrement.
+• Envoi et réception des Monacoin via NFC, codes QR ou des URLs Monacoin.
+• Carnet d'adresse pour les adresses Monacoin utilisées régulièrement.
 • Quand vous êtes hors-ligne vous pouvez quand même payez via Bluetooth.
 • Notification du système pour les pièces reçues.
-• Widget affichant le solde Dogecoin.
+• Widget affichant le solde Monacoin.
 
-Vous pouvez en apprendre plus au sujet de Dogecoin sur
-http://dogecoin.org
+Vous pouvez en apprendre plus au sujet de Monacoin sur
+http://monacoin.org
 
-Si vous voulez contribuer à Dogecoin Wallet, le projet se trouve sur
-https://github.com/langerhans/dogecoin-wallet-new
+Si vous voulez contribuer à Monacoin Wallet, le projet se trouve sur
+https://github.com/keystore00/monacoin-wallet-new
 
-This is a fork of the popular Dogecoin Wallet by Andreas Schildbach and was converted to Dogecoin by me.
+This is a fork of the popular Monacoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

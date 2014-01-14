@@ -1,23 +1,23 @@
-Hav altid dine Dogecoins med dig i din lomme! Du betaler ved hurtigt at scanne en QR-kode. Som handlende kan du modtage betalinger pålideligt og øjeblikkeligt. Dogecoin Wallet er den første mobile Dogecoin-app, og muligvis den mest sikre!
+Hav altid dine Monacoins med dig i din lomme! Du betaler ved hurtigt at scanne en QR-kode. Som handlende kan du modtage betalinger pålideligt og øjeblikkeligt. Monacoin Wallet er den første mobile Monacoin-app, og muligvis den mest sikre!
 
 FUNKTIONER:
 
 • Ingen registrering, webservice eller sky behøves! Tegnebogen er decentraliseret og peer-to-peer.
-• Visning af Dogecoin-beløb i DOGE og mDOGE.
+• Visning af Monacoin-beløb i MONA og mMONA.
 • Konvertering til og fra lokale valutaer.
-• Afsendelse og modtagelse af Dogecoin via NFC, QR-koder eller Dogecoin-URLer.
-• Adressebog til ofte brugte Dogecoin-adresser.
+• Afsendelse og modtagelse af Monacoin via NFC, QR-koder eller Monacoin-URLer.
+• Adressebog til ofte brugte Monacoin-adresser.
 • Når du er offline, kan du stadig betale via Bluetooth.
 • Systemnotifikation for modtagne mønter.
-• App-widget for Dogecoin-saldo.
+• App-widget for Monacoin-saldo.
 
-Du kan finde mere om Dogecoin på
-http://dogecoin.org
+Du kan finde mere om Monacoin på
+http://monacoin.org
 
-Hvis du vil bidrage til Dogecoin Wallet, kan projektet findes på
-https://github.com/langerhans/dogecoin-wallet-new
+Hvis du vil bidrage til Monacoin Wallet, kan projektet findes på
+https://github.com/keystore00/monacoin-wallet-new
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Dogecoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

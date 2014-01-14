@@ -1,23 +1,23 @@
-Dogecoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuyarak çabuk ödeme yapabilirsiniz. Bir tüccar olarak ödemeleri güvenilir ve anında alabilirsiniz. Dogecoin cüzdanı ilk mobil Dogecoin uygulamasıdır ve muhtemelen en güvenli Dogecoin uygulamasıdır!
+Monacoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuyarak çabuk ödeme yapabilirsiniz. Bir tüccar olarak ödemeleri güvenilir ve anında alabilirsiniz. Monacoin cüzdanı ilk mobil Monacoin uygulamasıdır ve muhtemelen en güvenli Monacoin uygulamasıdır!
 
 İŞLEVLERİ:
 
 • Hiçbir oturuma, web ya da bulut hizmetine gerek yoktur. Bu cüzdan merkezsiz ve eşten eşedir.
-• Dogecoin meblağlarının DOGE ve mDOGE olarak gösterilmesi.
+• Monacoin meblağlarının MONA ve mMONA olarak gösterilmesi.
 • Dövizlere ve dövizlerden dönüştürme.
-• NFC, QR kodu veya Dogecoin bağlantıları ile Dogecoin gönderir ve alır.
-• Sık kullanılan Dogecoin adresleri için adres defteri içerir.
+• NFC, QR kodu veya Monacoin bağlantıları ile Monacoin gönderir ve alır.
+• Sık kullanılan Monacoin adresleri için adres defteri içerir.
 • Çevrimdışı olduğunuzda Bluetooth vasıtasıyla ödemeler.
-• Alınan dogecoin'ler için sistem bildirimleri.
-• Dogecoin bakiyesini görüntüleyen widget.
+• Alınan monacoin'ler için sistem bildirimleri.
+• Monacoin bakiyesini görüntüleyen widget.
 
-Dogecoin hakkında daha fazla bilgiyi şurada bulabilirsiniz:
-http://dogecoin.org
+Monacoin hakkında daha fazla bilgiyi şurada bulabilirsiniz:
+http://monacoin.org
 
-Dogecoin Wallet'e iştirak etmek istiyorsanız, projenin adresi şudur:
-https://github.com/langerhans/dogecoin-wallet-new
+Monacoin Wallet'e iştirak etmek istiyorsanız, projenin adresi şudur:
+https://github.com/keystore00/monacoin-wallet-new
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Dogecoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

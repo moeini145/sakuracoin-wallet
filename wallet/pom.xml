@@ -6,11 +6,11 @@
 
 	<artifactId>wallet</artifactId>
 	<packaging>apk</packaging>
-	<version>1.03</version>
-	<name>Dogecoin Wallet</name>
+	<version>0.01</version>
+	<name>Monacoin Wallet</name>
 
 	<parent>
-		<groupId>de.langerhans.wallet</groupId>
+		<groupId>ja.keystore00.wallet</groupId>
 		<artifactId>base</artifactId>
 		<version>1</version>
 	</parent>
@@ -49,16 +49,16 @@
 			<type>apklib</type>
 		</dependency>
 
-		<!-- com.google.dogecoin.* -->
+		<!-- com.google.monacoin.* -->
 		<dependency>
 			<groupId>com.google</groupId>
-			<artifactId>dogecoinj</artifactId>
+			<artifactId>monacoinj</artifactId>
 			<version>0.11-SNAPSHOT</version>
 		</dependency>
 
 		<!-- de.schildbach.wallet.integration.android.* -->
 		<dependency>
-			<groupId>de.langerhans.wallet</groupId>
+			<groupId>ja.keystore00.wallet</groupId>
 			<artifactId>integration-android</artifactId>
 			<version>1.0</version>
 		</dependency>

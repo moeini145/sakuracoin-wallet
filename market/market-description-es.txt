@@ -1,21 +1,21 @@
-Consiste en una cartera de dogecoins para tu dispositivo Android. Puedes enviar dogecoins entre teléfonos haciendo explorar los códigos QR que muestra la aplicación o mediante NFC (Near Field Communication).
+Consiste en una cartera de monacoins para tu dispositivo Android. Puedes enviar monacoins entre teléfonos haciendo explorar los códigos QR que muestra la aplicación o mediante NFC (Near Field Communication).
 
 CARACTERÍSTICAS:
 
-• Visualización del saldo de la cartera en Dogecoin y en otras monedas.
-• Envío y recpción de dogecoins a través de NFC, códigos QR o URL Dogecoin.
-• Libreta de direcciones para guardar las direcciones Dogecoin utilizadas habitualmente.
+• Visualización del saldo de la cartera en Monacoin y en otras monedas.
+• Envío y recpción de monacoins a través de NFC, códigos QR o URL Monacoin.
+• Libreta de direcciones para guardar las direcciones Monacoin utilizadas habitualmente.
 • Las transacciones se pueden llevar a cabo sin conexión, ejecutándose al recuperar la conexión.
-• Notificaciones de sistema para la conectividad a la red Dogecoin y para la recepción de dogecoins.
-• Widget de aplicación para el saldo Dogecoin.
+• Notificaciones de sistema para la conectividad a la red Monacoin y para la recepción de monacoins.
+• Widget de aplicación para el saldo Monacoin.
 
-Puedes descubrir más sobre Dogecoin en
-http://dogecoin.org
+Puedes descubrir más sobre Monacoin en
+http://monacoin.org
 
-Si quieres contribuir a Dogecoin Wallet, el proyecto está localizado en
-https://github.com/langerhans/dogecoin-wallet-new
+Si quieres contribuir a Monacoin Wallet, el proyecto está localizado en
+https://github.com/keystore00/monacoin-wallet-new
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Dogecoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

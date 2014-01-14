@@ -1,22 +1,22 @@
-Dengan aplikasi ini Anda selalu mempunyai Dogecoin dengan Anda, dalam saku Anda! Anda dapat mengirim pembayaran hanya dengan memindai kode-QR atau mendekatkan dua ponsel bersama (NFC). Dogecoin Wallet dirancang untuk mudah digunakan dan diandalkan, sementara juga menjadi lebih aman dan cepat.
+Dengan aplikasi ini Anda selalu mempunyai Monacoin dengan Anda, dalam saku Anda! Anda dapat mengirim pembayaran hanya dengan memindai kode-QR atau mendekatkan dua ponsel bersama (NFC). Monacoin Wallet dirancang untuk mudah digunakan dan diandalkan, sementara juga menjadi lebih aman dan cepat.
 
 FITUR:
 
 • Tidak diperlukan server awan atau layanan web! Dompet ini benar-benar peer ke peer.
-• Tampilkan saldo dompet dalam Dogecoin dan mata uang lainnya.
-• Mengirim dan menerima Dogecoin via NFC, kode-QR atau Tautan Dogecoin.
-• Buku alamat untuk alamat penggunaan dogecoin secara reguler.
+• Tampilkan saldo dompet dalam Monacoin dan mata uang lainnya.
+• Mengirim dan menerima Monacoin via NFC, kode-QR atau Tautan Monacoin.
+• Buku alamat untuk alamat penggunaan monacoin secara reguler.
 • Masukkan transaksi saat offline, akan dilaksanakan ketika online.
-• Notifikasi sistem untuk konektivitas Dogecoin dan menerima koin.
-• Widget Apl untuk saldo Dogecoin.
+• Notifikasi sistem untuk konektivitas Monacoin dan menerima koin.
+• Widget Apl untuk saldo Monacoin.
 
-Anda dapat mengetahui lebih mengenai Dogecoin di
-http://dogecoin.org
+Anda dapat mengetahui lebih mengenai Monacoin di
+http://monacoin.org
 
-Jika Anda ingin berkontribusi kepada Dogecoin Wallet, proyeknya berada di
-https://github.com/langerhans/dogecoin-wallet-new
+Jika Anda ingin berkontribusi kepada Monacoin Wallet, proyeknya berada di
+https://github.com/keystore00/monacoin-wallet-new
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Dogecoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

@@ -1,23 +1,23 @@
-Tenha os seus Dogecoins sempre com você, no seu bolso! Efetue pagamentos rapidamente apenas escaneando um código QR​​. Como comerciante, você pode receber pagamentos de forma confiável e instantaneamente. O Dogecoin Wallet é o primeiro aplicativo Dogecoin móvel, e, possivelmente, o mais seguro!
+Tenha os seus Monacoins sempre com você, no seu bolso! Efetue pagamentos rapidamente apenas escaneando um código QR​​. Como comerciante, você pode receber pagamentos de forma confiável e instantaneamente. O Monacoin Wallet é o primeiro aplicativo Monacoin móvel, e, possivelmente, o mais seguro!
 
 CARACTERÍSTICAS:
 
 • Sem necessidade de cadastro, serviço web ou hospedagem! Esta carteira é descentralizada e "peer to peer".
-• Exibe a quantidade de Dogecoins em DOGE e mDOGE.
+• Exibe a quantidade de Monacoins em MONA e mMONA.
 • Conversão para moedas nacionais.
-• Envio e recebimento de Dogecoins via NFC, códigos QR ou endereços Dogecoin.
+• Envio e recebimento de Monacoins via NFC, códigos QR ou endereços Monacoin.
 • Catálogo para guardar os endereços mais utilizados.
 • Quando você estiver off-line, você ainda pode pagar via Bluetooth.
 • Notificações do sistema para moedas recebidas.
-• Widget para saldo de Dogecoins.
+• Widget para saldo de Monacoins.
 
-Mais informações sobre Dogecoin em
-http://dogecoin.org
+Mais informações sobre Monacoin em
+http://monacoin.org
 
-Se você deseja contribuir com o Dogecoin Wallet, o projeto encontra-se em
-https://github.com/langerhans/dogecoin-wallet-new
+Se você deseja contribuir com o Monacoin Wallet, o projeto encontra-se em
+https://github.com/keystore00/monacoin-wallet-new
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Dogecoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 
