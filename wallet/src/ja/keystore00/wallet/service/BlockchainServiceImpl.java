@@ -77,6 +77,7 @@ import com.google.monacoin.core.WalletEventListener;
 import com.google.monacoin.store.BlockStore;
 import com.google.monacoin.store.BlockStoreException;
 import com.google.monacoin.store.SPVBlockStore;
+import com.google.monacoin.utils.Threading;
 
 import ja.keystore00.wallet.AddressBookProvider;
 import ja.keystore00.wallet.Constants;
@@ -88,6 +89,7 @@ import ja.keystore00.wallet.util.GenericUtils;
 import ja.keystore00.wallet.util.ThrottlingWalletChangeListener;
 import ja.keystore00.wallet.util.WalletUtils;
 import ja.keystore00.wallet.R;
+
 
 /**
  * @author Andreas Schildbach
@@ -675,7 +677,7 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 			throw new Error("blockchain cannot be created", x);
 		}
 
-		application.getWallet().addEventListener(walletEventListener);
+		application.getWallet().addEventListener(walletEventListener, Threading.SAME_THREAD);
 
 		registerReceiver(tickReceiver, new IntentFilter(Intent.ACTION_TIME_TICK));
 

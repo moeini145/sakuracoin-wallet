@@ -52,6 +52,7 @@ import com.google.monacoin.core.ECKey;
 import com.google.monacoin.core.Wallet;
 import com.google.monacoin.core.WalletEventListener;
 import com.google.monacoin.uri.BitcoinURI;
+import com.google.monacoin.utils.Threading;
 
 import ja.keystore00.wallet.AddressBookProvider;
 import ja.keystore00.wallet.Constants;
@@ -108,7 +109,7 @@ public final class WalletAddressesFragment extends SherlockListFragment
 
 		contentResolver.registerContentObserver(AddressBookProvider.contentUri(activity.getPackageName()), true, contentObserver);
 
-		wallet.addEventListener(walletListener);
+		wallet.addEventListener(walletListener, Threading.SAME_THREAD);
 		walletListener.onKeysAdded(null, null); // trigger initial load of keys
 
 		updateView();

@@ -26,6 +26,7 @@ import android.support.v4.content.AsyncTaskLoader;
 
 import com.google.monacoin.core.Wallet;
 import com.google.monacoin.core.Wallet.BalanceType;
+import com.google.monacoin.utils.Threading;
 
 import ja.keystore00.wallet.util.ThrottlingWalletChangeListener;
 
@@ -48,7 +49,7 @@ public final class WalletBalanceLoader extends AsyncTaskLoader<BigInteger>
 	{
 		super.onStartLoading();
 
-		wallet.addEventListener(walletChangeListener);
+		wallet.addEventListener(walletChangeListener, Threading.SAME_THREAD);
 
 		forceLoad();
 	}
