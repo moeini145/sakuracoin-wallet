@@ -4,26 +4,26 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			The upper left part of the screen displays your selected Monacoin address that other people need to know in order to send you Monacoins.
-			Tap to change the address.
+		        左上にあるのはあなたのMonacoinアドレスです。このアドレスを送金者に知らせることで、Monacoinを受け取れます。
+			タップして変更。
 		</p>
 		<p>
-			The QR code on the right contains your monacoin address and can be used for scanning by another party.
-			Tap on the QR code to get a larger version of it.
+		        右のQRコードはあなたのMonacoinアドレスのものです。
+			タップして拡大表示。
 		</p>
 		<p>
-			In the middle of the screen, your balance is displayed.
-			The value of your wallet is also shown in one selected local currency.
-			Tap on balance to display list of all local currencies, and tap on one of the currencies to select it as default.
+			中央には財布の残高が表示されます。
+			現地通貨での価値も表示されます。
+			残高をタップして、ほかの通貨での価値を表示。通貨をタップしてデフォルトの通貨に設定。
 		</p>
 		<p>
-			The bottom of the screen is covered by your transactions list, which is empty at the beginning.
-			Pending transactions are greyed out until they are confirmed.
-			Tap on one entry to add the senders or receivers address to the address book.
-			Swipe left or right to apply filters to the list.
+			画面の下部には取引履歴が表示されます。
+			認証待ちの取引は認証されるまで灰色で表示されます。
+			タップしてアドレスをアドレス帳に追加
+			左にスワイプで入金履歴、右にスワイプで送金履歴を表示。
 		</p>
 		<p>
-			You can send or request coins by tapping the buttons in the action bar.
+			アクションバーにあるボタンで送金とリクエストができます。
 			More options are available in the options menu.
 		</p>
 	]]>

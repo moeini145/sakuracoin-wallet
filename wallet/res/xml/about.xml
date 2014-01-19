@@ -24,11 +24,11 @@
 			android:title="@string/about_community_googleplus_title" />-->
 		<Preference
 			android:key="about_author_twitter"
-			android:summary="\@langer_hans"
+			android:summary="\@no_twitter"
 			android:title="@string/about_author_twitter_title" />
 		<Preference
 			android:key="about_author_googleplus"
-			android:summary="+Maximilian Keller"
+			android:summary="+no_plus"
 			android:title="@string/about_author_googleplus_title" />
 		<Preference
 			android:key="about_market_publisher"
