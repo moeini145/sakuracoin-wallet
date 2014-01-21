@@ -24,56 +24,50 @@
 		</p>
 		<p>
 			アクションバーにあるボタンで送金とリクエストができます。
-			More options are available in the options menu.
 		</p>
 	]]>
 	</string>
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Using this dialog, you can request coins from another person (who should already have installed Monacoin Wallet).
+		        このページで送金のリクエストを行うことができます。
 		</p>
 		<p>
-			First, you can enter an amount of Monacoins to request.
+			まず、リクエストする額を入力。
 		</p>
 		<p>
-			Then, you either have the generated QR code scanned by the other person.
-			Or, you can send your request to a remote person with the share button in the action bar.
-			The other person will have to click the Monacoin URL.
+		        次に、表示されたQRコードをスキャンしてもらってください。
+			もしくは、シェアボタンを押してリクエストを送信してください。
 		</p>
 		<p>
-			Either way, the other person will be presented a dialog for sending coins with all fields pre-populated.
-			If she accepts, all she needs to do is sending the payment.
+		        リクエストを受けた人は、あなたへの送金画面が表示されます。
 		</p>
 	]]>
 	</string>
 	<string name="help_send_coins">
 <![CDATA[
 		<p>
-			You have initiated the process of sending coins.
-			You came here either through the main screen or by clicking on a Monacoin URL in your mobile browser.
+		        コインを送る画面です。
 		</p>
 		<p>
-			First, you enter the Monacoin address to pay to.
-			The address will autocomplete from known entries in your address book.
-			You can also scan QR codes with Monacoin addresses or Monacoin requests by pressing the QR button in the action bar.
+		        まず、送金先のMonacoinアドレスを入力します。
+			アドレスはアドレス帳から補完されます。
+			QRコードをスキャンすることもできます。
 		</p>
 		<p>
-			Next, you can see how many Monacoins you can spend at the moment.
-			Any difference to the balance from the main screen is still unconfirmed and can thus not yet be spent.
 		</p>
 		<p>
-			Last, you enter the amount to pay.
+			送金額を入力し送金を実行します。
 		</p>
 		<p>
-			You can enter a payment while being offline.
-			It will be sent on next restart of Monacoin Wallet.
-			If you want a payment to be processed as fast as possible, make sure you are well connected (i.e. on a WLAN).
+		        オフライン時にも送金を実行できます。
+			送金は次回起動時に処理されます。
+			送金を迅速に行いたいときは、ネットワーク接続状況に注意してください。
 		</p>
 		<p>
-			Note:
-			Payments are irreversible!
-			Always check the receiving address.
+		        注意：
+			送金は取り消しできません。
+			送金先アドレスは毎回確認してください。
 		</p>
 	]]>
 	</string>
@@ -83,31 +77,31 @@
 			<b>Important safety notes:</b>
 		</p>
 		<p>
-			Monacoins are stored on the device.
-			<b>If you lose it, you\'ll lose your Monacoins.</b>
+		        Monacoinは端末内に保存されます
+			<b>端末を紛失すると、Monacoinを失うことになります。.</b>
 		</p>
 		<p>
-			This means you need to <b>back up your wallet</b>!
-			Use the in-app backup facility for this, rather than a third party backup app.
-			Keep your backup safe and remember the password.
+		        ウォレットをバックアップすることでこれを避けることができます！
+			アプリのバックアップ機能、もしくはサードパーティーのバックアップアプリを使いましょう。
+			バックアップは安全に保管し、パスワードを覚えておきましょう。
 		</p>
 		<p>
-			<b>Before uninstalling</b> (or clearing app data/wiping your device), <b>transfer your Monacoins to another wallet</b>.
-			Remaining Monacoins will be lost.
+			<b>アンインストールする前に</b> (アプリデータを消す前に)、 <b>Monacoinを別のウォレットに送りましょう</b>。
+			アンインストールするとウォレットに残っているMonacoinは失われます。
 		</p>
 		<p>
-			<b>Payments are irreversible</b>.
-			If you send your Monacoins into the void, there is almost no way to get them back.
+			<b>送金は取り消し不可能</b>.
+			もし、無効なアドレスに送金しても、それを取り消すことはず、Monacoinを失うことになります。
 		</p>
 		<p>
-			<b>Keep your mobile device safe!</b>
-			Do not root your device.
-			Do only install apps you fully trust.
-			Malicious apps could be trying to steal your wallet.
+			<b>端末を安全に保ちましょう</b>
+			端末のroot化をしない。
+			信頼できるアプリのみインストールする。
+			悪意のあるアプリはウォレットを盗もうとする可能性があります。
 		</p>
 		<p>
-			Keep the risk low!
-			<b>Only use with small amounts</b> for day use.
+			リスクは最小限に！
+			日常の<b>少額の取引</b>だけに利用しましょう。
 		</p>
 	]]>
 	</string>

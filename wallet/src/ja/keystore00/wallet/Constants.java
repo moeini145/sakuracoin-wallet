@@ -51,7 +51,7 @@ public class Constants
 
 	public static final String CHECKPOINTS_FILENAME = "checkpoints" + FILENAME_NETWORK_SUFFIX;
 
-        private static final String BLOCKEXPLORER_BASE_URL_PROD = "http://monacoin.org/";  //TODO
+        private static final String BLOCKEXPLORER_BASE_URL_PROD = "http://monacoin.org/";
 	private static final String BLOCKEXPLORER_BASE_URL_TEST = "http://monacoin.org/testnet/"; //TODO MONA: Not yet...
 	public static final String BLOCKEXPLORER_BASE_URL = NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET) ? BLOCKEXPLORER_BASE_URL_PROD
 			: BLOCKEXPLORER_BASE_URL_TEST;
@@ -81,17 +81,17 @@ public class Constants
 	public static final int LOCAL_PRECISION = 4;
 
         public static final String DONATION_ADDRESS = "MAUdkbmiEdso5c3bHgRUBhJE11AVTqTSeS";
-        public static final String REPORT_EMAIL = "keystore00@gmail.com";  //TODO
+        public static final String REPORT_EMAIL = "keystore00@gmail.com";
 	public static final String REPORT_SUBJECT_ISSUE = "Reported issue";
 	public static final String REPORT_SUBJECT_CRASH = "Crash report";
 
 	public static final String LICENSE_URL = "http://www.gnu.org/licenses/gpl-3.0.txt";
         public static final String SOURCE_URL = "https://github.com/keystore00/monacoin-wallet-new";  //TODO
 	public static final String BINARY_URL = "http://code.google.com/p/"; //TODO
-        public static final String CREDITS_BITCOINJ_URL = "http://code.google.com/p/";  //TODO
-	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/";
-        public static final String CREDITS_ICON_URL = "https://github.com/";  //TODO
-        public static final String AUTHOR_TWITTER_URL = "https://twitter.com/";  //TODO
+        public static final String CREDITS_BITCOINJ_URL = "http://github.com/keystore00/monacoinj-new";
+	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing";
+        public static final String CREDITS_ICON_URL = "http://monacoin.org/";  //TODO
+        public static final String AUTHOR_TWITTER_URL = "https://twitter.com/keystore00";
         public static final String AUTHOR_GOOGLEPLUS_URL = "";  //TODO
 	public static final String COMMUNITY_GOOGLEPLUS_URL = ""; //TODO
 	public static final String MARKET_APP_URL = "market://details?id=%s";
