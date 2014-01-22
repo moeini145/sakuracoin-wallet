@@ -2,7 +2,7 @@
 <resources>
 
 	<string name="toast_wallet_reset">ウォレットがリセットされました、\n復元に少し時間がかかります。</string>
-	<string name="wallet_disclaimer_fragment_remind_safety">ご利用はすべて自己責任で。 Read the &lt;u>safety notes&lt;/u>.</string>
+	<string name="wallet_disclaimer_fragment_remind_safety">ご利用はすべて自己責任で。&lt;u>safety notes&lt;/u>を読む。</string>
 	<string name="wallet_disclaimer_fragment_remind_backup">ウォレットを&lt;u>バックアップ&lt;/u>！</string>
 	<string name="blockchain_state_progress_hours">%1$s, %2$d 時間 同期ずれ</string>
 	<string name="blockchain_state_progress_days">%1$s, %2$d 日 同期ずれ</string>
@@ -32,13 +32,13 @@
 	<string name="wallet_transactions_fragment_empty_text_howto">Monacoinの入手方法\n\nモノやサービスを売ったり\n採掘をしましょう。</string>
 	<string name="wallet_transactions_row_warning_backup">おめでとうございます、初めて入金されました！ 財布を紛失から守るための &lt;u>バックアップ&lt;/u>はお済ですか？</string>
 	<string name="wallet_transactions_fragment_coinbase">採掘</string>
-	<string name="wallet_transactions_fragment_internal">internal</string>
+	<string name="wallet_transactions_fragment_internal">内部取引</string>
 	<string name="wallet_transactions_context_show_qr_title">QRコードを表示</string>
 	<string name="wallet_options_backup">バックアップ</string>
 	<string name="wallet_options_disconnect">切断</string>
 	<string name="wallet_options_safety">セーフティノート</string>
 	<string name="wallet_options_donate">寄付</string>
-	<string name="wallet_donate_address_label">寄付用アドレス</string>
+	<string name="wallet_donate_address_label">寄付用開発者アドレス</string>
 	<string name="wallet_low_storage_dialog_title">ストレージの空き容量不足</string>
 	<string name="wallet_low_storage_dialog_msg">Monacoin Walletは内部ストレージに取引履歴を保存しています。ストレージを使い切ると、動作を停止しあなたのMonacoinが危険です！\n\n不要なアプリを削除してストレージに空き容量を増やしますか？</string>
 	<string name="wallet_low_storage_dialog_button_apps">不要アプリを削除</string>
@@ -76,12 +76,12 @@
 	<string name="send_coins_address_context_clear_title">新しいアドレスを入力</string>
 	<string name="request_coins_activity_title">Monacoinをリクエスト</string>
 	<string name="request_coins_fragment_address_label">リクエストするアドレス</string>
-	<string name="request_coins_fragment_include_address_label">include label with address</string>
+	<string name="request_coins_fragment_include_address_label">ラベルをリクエストに含める</string>
 	<string name="request_coins_fragment_amount_label">リクエスト金額 (任意)</string>
 	<string name="request_coins_fragment_initiate_request_qr">リクエスト用QRコード</string>
 	<string name="request_coins_fragment_initiate_request_nfc">Or tap an NFC enabled device.</string>
-	<string name="request_coins_fragment_bluetooth_enabled">Accepting payments via Bluetooth.</string>
-	<string name="request_coins_clipboard_msg">Monacoin request copied to clipboard</string>
+	<string name="request_coins_fragment_bluetooth_enabled">Bluetoothでの支払いを受け付けます。</string>
+	<string name="request_coins_clipboard_msg">リクエストをクリップボードにコピーしました</string>
 	<string name="request_coins_share_dialog_title">Share request for Monacoins…</string>
 	<string name="request_coins_options_local_app_title">Request from local app</string>
 	<string name="address_book_activity_title">アドレス帳</string>
@@ -109,10 +109,10 @@
 	<string name="transaction_row_message_received_unconfirmed_locked">この取引は信用できません。</string>
 	<string name="transaction_row_message_received_dead">This payment has been reversed by the sender.</string>
 	<string name="transaction_row_message_received_dust">This small amount can probably never be spent economically.</string>
-	<string name="network_monitor_activity_title">ネットワークモニター</string>
-	<string name="network_monitor_peer_list_title">Peers</string>
-	<string name="network_monitor_block_list_title">Blocks</string>
-	<string name="peer_list_fragment_empty">No peers connected</string>
+	<string name="network_monitor_activity_title">ネットワークモニタ</string>
+	<string name="network_monitor_peer_list_title">接続先</string>
+	<string name="network_monitor_block_list_title">ブロック</string>
+	<string name="peer_list_fragment_empty">Monacoinネットワークに接続していません</string>
 	<string name="peer_list_row_ping_time">⇆ %d&#x2009;ms</string>
 	<string name="import_keys_dialog_title">プライベートキーの復元</string>
 	<string name="import_keys_dialog_message">外部ストレージかアプリ内部ストレージからバックアッププライベートキーを選択:</string>
@@ -157,17 +157,17 @@
 	<string name="preferences_precision_summary">Unit to show amounts in. This does not affect computations.</string>
 	<string name="preferences_connectivity_notification_title">Connectivity Indicator</string>
 	<string name="preferences_connectivity_notification_summary">Show current number of connected peers in the notification area.</string>
-	<string name="preferences_trusted_peer_title">Trusted Peer</string>
-	<string name="preferences_trusted_peer_summary">IP or hostname of single peer to connect to.</string>
-	<string name="preferences_trusted_peer_only_title">Skip Regular Peer Discovery</string>
-	<string name="preferences_trusted_peer_only_summary">Prevents connecting to any peers besides the trusted peer.</string>
-	<string name="preferences_data_usage_title">Data usage</string>
-	<string name="preferences_data_usage_summary">Show options to restrict data usage on mobile networks.</string>
-	<string name="preferences_report_issue_title">Report Issue</string>
-	<string name="preferences_report_issue_summary">Collect information about your issue and email your report to the developers.</string>
-	<string name="preferences_initiate_reset_title">Reset Blockchain</string>
-	<string name="preferences_initiate_reset_summary">Reset blockchain, transactions and wallet balance. Replay will take a while.</string>
-	<string name="preferences_initiate_reset_dialog_message">Would you like to reset and replay the blockchain?\n\nThis will temporarily hide your wallet balance and remove transactions. Both will recover as blockchain sync progresses.</string>
+	<string name="preferences_trusted_peer_title">信頼する接続先</string>
+	<string name="preferences_trusted_peer_summary">接続するIPアドレス、もしくはホスト名。</string>
+	<string name="preferences_trusted_peer_only_title">通常の接続をスキップ</string>
+	<string name="preferences_trusted_peer_only_summary">信頼する接続先以外への接続をしない。</string>
+	<string name="preferences_data_usage_title">データ使用量</string>
+	<string name="preferences_data_usage_summary">モバイルネットワークの使用量を制限する。</string>
+	<string name="preferences_report_issue_title">問題の報告</string>
+	<string name="preferences_report_issue_summary">開発者に問題を報告する。</string>
+	<string name="preferences_initiate_reset_title">ブロックチェインのリセット</string>
+	<string name="preferences_initiate_reset_summary">ブロックチェインをリセットする。処理には時間がかかります。</string>
+	<string name="preferences_initiate_reset_dialog_message">ブロックチェインをリセットしますか？\n\n一時的にウォレットの残高と取引履歴を閲覧できなくなり、ブロックチェインの同期完了後に閲覧可能になります。</string>
 	<string name="preferences_initiate_reset_dialog_positive">リセット</string>
     <string name="preferences_autosync">自動同期</string>
     <string name="preferences_autosync_switch_title">自動同期を有効化</string>
@@ -199,12 +199,12 @@
 	<string name="about_market_app_title">Google Play Page</string>
 	<string name="about_market_app_summary">Review or rate the app</string>
 	<string name="about_credits_market_publisher_title">Other Apps of Author</string>
-	<string name="notification_coins_received_msg">Received %s</string>
-	<string name="notification_peers_connected_msg">%d peers connected</string>
+	<string name="notification_coins_received_msg">入金 %s</string>
+	<string name="notification_peers_connected_msg">接続数 %d</string>
 
 	<!-- generic buttons -->
 	<string name="button_ok">OK</string>
-	<string name="button_dismiss">Dismiss</string>
+	<string name="button_dismiss">取り消し</string>
 	<string name="button_cancel">キャンセル</string>
 	<string name="button_help">ヘルプ</string>
 	<string name="button_add">追加</string>
@@ -213,13 +213,13 @@
 	<string name="button_copy">コピー</string>
 	<string name="button_paste">貼り付け</string>
 	<string name="button_share">Share</string>
-	<string name="button_set_as_default">Set as default</string>
+	<string name="button_set_as_default">デフォルトに設定</string>
 	<string name="button_request_coins">リクエスト</string>
 	<string name="button_send_coins">送金</string>
-	<string name="button_scan">Scan</string>
-	<string name="button_edit_address">Add/edit address</string>
-	<string name="action_open_blockexplorer">Open in monacoin.org</string>
-	<string name="time_today">today</string>
+	<string name="button_scan">スキャン</string>
+	<string name="button_edit_address">追加/編集</string>
+	<string name="action_open_blockexplorer">monacoin.orgで開く</string>
+	<string name="time_today">今日</string>
 	<string name="address_unlabeled">(ラベルなし)</string>
 
 </resources>
