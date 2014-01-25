@@ -80,7 +80,7 @@ public class Constants
 	public static final int MBTC_MAX_PRECISION = 5;
 	public static final int LOCAL_PRECISION = 4;
 
-        public static final String DONATION_ADDRESS = "MAUdkbmiEdso5c3bHgRUBhJE11AVTqTSeS";
+        public static final String DONATION_ADDRESS = "MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY";
         public static final String REPORT_EMAIL = "ohachige@gmail.com";
 	public static final String REPORT_SUBJECT_ISSUE = "Reported issue";
 	public static final String REPORT_SUBJECT_CRASH = "Crash report";
