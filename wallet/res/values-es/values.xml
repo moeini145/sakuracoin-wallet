@@ -2,10 +2,10 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>MONA, 8 dígitos</item>
-		<item>MONA, 6 dígitos</item>
-		<item>MONA, 4 dígitos</item>
-		<item>mMONA, 2 dígitos</item>
+		<item>SKR, 8 dígitos</item>
+		<item>SKR, 6 dígitos</item>
+		<item>SKR, 4 dígitos</item>
+		<item>mSKR, 2 dígitos</item>
 	</string-array>
 
 </resources>

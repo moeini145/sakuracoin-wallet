@@ -1,23 +1,23 @@
-Monacoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuyarak çabuk ödeme yapabilirsiniz. Bir tüccar olarak ödemeleri güvenilir ve anında alabilirsiniz. Monacoin cüzdanı ilk mobil Monacoin uygulamasıdır ve muhtemelen en güvenli Monacoin uygulamasıdır!
+Sakuracoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuyarak çabuk ödeme yapabilirsiniz. Bir tüccar olarak ödemeleri güvenilir ve anında alabilirsiniz. Sakuracoin cüzdanı ilk mobil Sakuracoin uygulamasıdır ve muhtemelen en güvenli Sakuracoin uygulamasıdır!
 
 İŞLEVLERİ:
 
 • Hiçbir oturuma, web ya da bulut hizmetine gerek yoktur. Bu cüzdan merkezsiz ve eşten eşedir.
-• Monacoin meblağlarının MONA ve mMONA olarak gösterilmesi.
+• Sakuracoin meblağlarının SKR ve mSKR olarak gösterilmesi.
 • Dövizlere ve dövizlerden dönüştürme.
-• NFC, QR kodu veya Monacoin bağlantıları ile Monacoin gönderir ve alır.
-• Sık kullanılan Monacoin adresleri için adres defteri içerir.
+• NFC, QR kodu veya Sakuracoin bağlantıları ile Sakuracoin gönderir ve alır.
+• Sık kullanılan Sakuracoin adresleri için adres defteri içerir.
 • Çevrimdışı olduğunuzda Bluetooth vasıtasıyla ödemeler.
-• Alınan monacoin'ler için sistem bildirimleri.
-• Monacoin bakiyesini görüntüleyen widget.
+• Alınan sakuracoin'ler için sistem bildirimleri.
+• Sakuracoin bakiyesini görüntüleyen widget.
 
-Monacoin hakkında daha fazla bilgiyi şurada bulabilirsiniz:
-http://monacoin.org
+Sakuracoin hakkında daha fazla bilgiyi şurada bulabilirsiniz:
+http://sakuracoin.org
 
-Monacoin Wallet'e iştirak etmek istiyorsanız, projenin adresi şudur:
-https://github.com/keystore00/monacoin-wallet-new
+Sakuracoin Wallet'e iştirak etmek istiyorsanız, projenin adresi şudur:
+https://github.com/ohac/sakuracoin-wallet
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Sakuracoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

@@ -1,4 +1,4 @@
-Welcome to _Monacoin Wallet_, a standalone Monacoin payment app for your Android device!
+Welcome to _Sakuracoin Wallet_, a standalone Sakuracoin payment app for your Android device!
 
 This project contains several sub-projects:
 
@@ -7,10 +7,10 @@ This project contains several sub-projects:
  * __market__:
      App description and promo material for the Google Play app store.
  * __integration-android__:
-     A tiny library for integrating Monacoin payments into your own Android app
+     A tiny library for integrating Sakuracoin payments into your own Android app
      (e.g. donations, in-app purchases).
  * __sample-integration-android__:
-     A minimal example app to demonstrate integration of Monacoin payments into
+     A minimal example app to demonstrate integration of Sakuracoin payments into
      your Android app.
 
 You can build all sub-projects at once using Maven:

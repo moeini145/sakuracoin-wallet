@@ -1,23 +1,23 @@
-﻿Ayez vos Monacoins toujours avec vous dans votre poche ! Payez rapidement en numérisant un code-QR. En tant que marchant vous recevez les paiements de manière fiable et instantanée. Monacoin Wallet est la première appli Monacoin mobile et sans doute aussi la plus sécuritaire !
+﻿Ayez vos Sakuracoins toujours avec vous dans votre poche ! Payez rapidement en numérisant un code-QR. En tant que marchant vous recevez les paiements de manière fiable et instantanée. Sakuracoin Wallet est la première appli Sakuracoin mobile et sans doute aussi la plus sécuritaire !
 
 FONCTIONS :
 
 • Pas d'inscription, de service Web ou de nuage de nécessaire ! Ce portefeuille est décentralisé et de pair-à-pair.
-• Affichage du montant de Monacoin en MONA et mMONA.
+• Affichage du montant de Sakuracoin en SKR et mSKR.
 • Conversion de et vers des devises nationales.
-• Envoi et réception des Monacoin via NFC, codes QR ou des URLs Monacoin.
-• Carnet d'adresse pour les adresses Monacoin utilisées régulièrement.
+• Envoi et réception des Sakuracoin via NFC, codes QR ou des URLs Sakuracoin.
+• Carnet d'adresse pour les adresses Sakuracoin utilisées régulièrement.
 • Quand vous êtes hors-ligne vous pouvez quand même payez via Bluetooth.
 • Notification du système pour les pièces reçues.
-• Widget affichant le solde Monacoin.
+• Widget affichant le solde Sakuracoin.
 
-Vous pouvez en apprendre plus au sujet de Monacoin sur
-http://monacoin.org
+Vous pouvez en apprendre plus au sujet de Sakuracoin sur
+http://sakuracoin.org
 
-Si vous voulez contribuer à Monacoin Wallet, le projet se trouve sur
-https://github.com/keystore00/monacoin-wallet-new
+Si vous voulez contribuer à Sakuracoin Wallet, le projet se trouve sur
+https://github.com/ohac/sakuracoin-wallet
 
-This is a fork of the popular Monacoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
+This is a fork of the popular Sakuracoin Wallet by Andreas Schildbach and was converted to Sakuracoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

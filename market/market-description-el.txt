@@ -1,21 +1,21 @@
-Αυτό είναι ένα αυτόνομο Monacoin Πορτοφόλι για την Android συσκευή σας. Μπορείτε να στείλετε Monacoin μεταξύ τηλεφώνων μόνο με σάρωση του QR κώδικα που εμφανίζεται από την εφαρμογή. Ή μέσω του NFC (Near Field Communication).
+Αυτό είναι ένα αυτόνομο Sakuracoin Πορτοφόλι για την Android συσκευή σας. Μπορείτε να στείλετε Sakuracoin μεταξύ τηλεφώνων μόνο με σάρωση του QR κώδικα που εμφανίζεται από την εφαρμογή. Ή μέσω του NFC (Near Field Communication).
 
 ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ:
 
-• Προβολή του υπολοίπου του πορτοφολιού στο Monacoin και σε διάφορα άλλα νομίσματα.
-• Αποστολή και λήψη Monacoin μέσω NFC, QR-κωδικούς ή τη χρήση Monacoin διευθύνσεων URL.
-• Κατάλογος διευθύνσεων για τις δημοφιλείς διευθύνσεις Monacoin.
+• Προβολή του υπολοίπου του πορτοφολιού στο Sakuracoin και σε διάφορα άλλα νομίσματα.
+• Αποστολή και λήψη Sakuracoin μέσω NFC, QR-κωδικούς ή τη χρήση Sakuracoin διευθύνσεων URL.
+• Κατάλογος διευθύνσεων για τις δημοφιλείς διευθύνσεις Sakuracoin.
 • συναλλαγές που εισάγονται χωρίς σύνδεση, εκτελούνται όταν συνδεθεί η συσκευή στο διαδίκτειο.
-• Σύστημα ειδοποιήσεις για τη Monacoin συνδεσιμότητα και τα ληφθειντα νομίσματα.
-• App widget για το υπόλοιπο των Monacoin.
+• Σύστημα ειδοποιήσεις για τη Sakuracoin συνδεσιμότητα και τα ληφθειντα νομίσματα.
+• App widget για το υπόλοιπο των Sakuracoin.
 
-Μπορείτε να βρείτε περισσότερα για τη χρήση Monacoin στο
-http://monacoin.org
+Μπορείτε να βρείτε περισσότερα για τη χρήση Sakuracoin στο
+http://sakuracoin.org
 
-Αν θέλετε να συμβάλει στη τη χρήση του Monacoin Wallet, το έργο βρίσκεται εδώ:
-https://github.com/keystore00/monacoin-wallet-new
+Αν θέλετε να συμβάλει στη τη χρήση του Sakuracoin Wallet, το έργο βρίσκεται εδώ:
+https://github.com/ohac/sakuracoin-wallet
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Sakuracoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

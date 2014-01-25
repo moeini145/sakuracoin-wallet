@@ -1,23 +1,23 @@
-﻿Tartsd a zsebedben Monacoinjaidat! Egyszerűen, akár QR-kód leolvasásával is fizethetsz. Ha pedig termékeket, vagy szolgáltatást értékesítesz megbízható módon és gyorsan juthatsz a bevételeidhez. A Monacoin Tárca az első Monacoin app és kétségkívül a legbiztonságosabb is!
+﻿Tartsd a zsebedben Sakuracoinjaidat! Egyszerűen, akár QR-kód leolvasásával is fizethetsz. Ha pedig termékeket, vagy szolgáltatást értékesítesz megbízható módon és gyorsan juthatsz a bevételeidhez. A Sakuracoin Tárca az első Sakuracoin app és kétségkívül a legbiztonságosabb is!
 
 ELŐNYÖK:
 
 • Nincs regisztráció és nem szükséges semmiféle háttéralkalmazás futtatása (web, vagy cloud)! Decentralizált és közvetlen (P2P).
-• A Monacoinjaid mennyiségét MONA és mMONA formában is láthatod.
+• A Sakuracoinjaid mennyiségét SKR és mSKR formában is láthatod.
 • Átváltás a saját valutádra, oda-vissza.
-• Monacoin küldése és fogadása NFC, QR-kód vagy közvetlen URL segítségével.
-• Címtár a rendszeresen használt Monacoin címek számára.
+• Sakuracoin küldése és fogadása NFC, QR-kód vagy közvetlen URL segítségével.
+• Címtár a rendszeresen használt Sakuracoin címek számára.
 • Offline állapotban is fizethetsz - Bluetooth segítségével.
-• Rendszerüzenet Monacoin érkezésekor.
-• Widget a Monacoin egyenlegről.
+• Rendszerüzenet Sakuracoin érkezésekor.
+• Widget a Sakuracoin egyenlegről.
 
-Bővebben a Monacoin-ról:
-http://monacoin.org
+Bővebben a Sakuracoin-ról:
+http://sakuracoin.org
 
-Ha hozzájárulnál a Monacoin Wallet projekthez:
-https://github.com/schildbach/monacoin-wallet
+Ha hozzájárulnál a Sakuracoin Wallet projekthez:
+https://github.com/schildbach/sakuracoin-wallet
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Sakuracoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

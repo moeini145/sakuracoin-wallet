@@ -7,10 +7,10 @@
 	<artifactId>wallet</artifactId>
 	<packaging>apk</packaging>
 	<version>0.07</version>
-	<name>Monacoin Wallet</name>
+	<name>Sakuracoin Wallet</name>
 
 	<parent>
-		<groupId>ja.keystore00.wallet</groupId>
+		<groupId>ja.ohac.wallet</groupId>
 		<artifactId>base</artifactId>
 		<version>1</version>
 	</parent>
@@ -49,16 +49,16 @@
 			<type>apklib</type>
 		</dependency>
 
-		<!-- com.google.monacoin.* -->
+		<!-- com.google.sakuracoin.* -->
 		<dependency>
 			<groupId>com.google</groupId>
-			<artifactId>monacoinj</artifactId>
+			<artifactId>sakuracoinj</artifactId>
 			<version>0.11-SNAPSHOT</version>
 		</dependency>
 
 		<!-- de.schildbach.wallet.integration.android.* -->
 		<dependency>
-			<groupId>ja.keystore00.wallet</groupId>
+			<groupId>ja.ohac.wallet</groupId>
 			<artifactId>integration-android</artifactId>
 			<version>1.0</version>
 		</dependency>

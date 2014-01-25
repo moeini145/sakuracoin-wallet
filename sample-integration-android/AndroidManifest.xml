@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="ja.keystore00.wallet.integration.sample"
+	package="ja.ohac.wallet.integration.sample"
 	android:versionCode="1"
 	android:versionName="1.0" >
 
@@ -16,9 +16,9 @@
 		android:normalScreens="true"
 		android:smallScreens="true" />
 
-	<application android:label="Sample for Monacoin Integration" >
+	<application android:label="Sample for Sakuracoin Integration" >
 		<activity
-			android:name="ja.keystore00.wallet.integration.sample.SampleActivity"
+			android:name="ja.ohac.wallet.integration.sample.SampleActivity"
 			android:theme="@android:style/Theme.Light" >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />

@@ -1,21 +1,21 @@
-Consiste en una cartera de monacoins para tu dispositivo Android. Puedes enviar monacoins entre teléfonos haciendo explorar los códigos QR que muestra la aplicación o mediante NFC (Near Field Communication).
+Consiste en una cartera de sakuracoins para tu dispositivo Android. Puedes enviar sakuracoins entre teléfonos haciendo explorar los códigos QR que muestra la aplicación o mediante NFC (Near Field Communication).
 
 CARACTERÍSTICAS:
 
-• Visualización del saldo de la cartera en Monacoin y en otras monedas.
-• Envío y recpción de monacoins a través de NFC, códigos QR o URL Monacoin.
-• Libreta de direcciones para guardar las direcciones Monacoin utilizadas habitualmente.
+• Visualización del saldo de la cartera en Sakuracoin y en otras monedas.
+• Envío y recpción de sakuracoins a través de NFC, códigos QR o URL Sakuracoin.
+• Libreta de direcciones para guardar las direcciones Sakuracoin utilizadas habitualmente.
 • Las transacciones se pueden llevar a cabo sin conexión, ejecutándose al recuperar la conexión.
-• Notificaciones de sistema para la conectividad a la red Monacoin y para la recepción de monacoins.
-• Widget de aplicación para el saldo Monacoin.
+• Notificaciones de sistema para la conectividad a la red Sakuracoin y para la recepción de sakuracoins.
+• Widget de aplicación para el saldo Sakuracoin.
 
-Puedes descubrir más sobre Monacoin en
-http://monacoin.org
+Puedes descubrir más sobre Sakuracoin en
+http://sakuracoin.org
 
-Si quieres contribuir a Monacoin Wallet, el proyecto está localizado en
-https://github.com/keystore00/monacoin-wallet-new
+Si quieres contribuir a Sakuracoin Wallet, el proyecto está localizado en
+https://github.com/ohac/sakuracoin-wallet
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Sakuracoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

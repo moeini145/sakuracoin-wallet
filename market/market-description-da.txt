@@ -1,23 +1,23 @@
-Hav altid dine Monacoins med dig i din lomme! Du betaler ved hurtigt at scanne en QR-kode. Som handlende kan du modtage betalinger pålideligt og øjeblikkeligt. Monacoin Wallet er den første mobile Monacoin-app, og muligvis den mest sikre!
+Hav altid dine Sakuracoins med dig i din lomme! Du betaler ved hurtigt at scanne en QR-kode. Som handlende kan du modtage betalinger pålideligt og øjeblikkeligt. Sakuracoin Wallet er den første mobile Sakuracoin-app, og muligvis den mest sikre!
 
 FUNKTIONER:
 
 • Ingen registrering, webservice eller sky behøves! Tegnebogen er decentraliseret og peer-to-peer.
-• Visning af Monacoin-beløb i MONA og mMONA.
+• Visning af Sakuracoin-beløb i SKR og mSKR.
 • Konvertering til og fra lokale valutaer.
-• Afsendelse og modtagelse af Monacoin via NFC, QR-koder eller Monacoin-URLer.
-• Adressebog til ofte brugte Monacoin-adresser.
+• Afsendelse og modtagelse af Sakuracoin via NFC, QR-koder eller Sakuracoin-URLer.
+• Adressebog til ofte brugte Sakuracoin-adresser.
 • Når du er offline, kan du stadig betale via Bluetooth.
 • Systemnotifikation for modtagne mønter.
-• App-widget for Monacoin-saldo.
+• App-widget for Sakuracoin-saldo.
 
-Du kan finde mere om Monacoin på
-http://monacoin.org
+Du kan finde mere om Sakuracoin på
+http://sakuracoin.org
 
-Hvis du vil bidrage til Monacoin Wallet, kan projektet findes på
-https://github.com/keystore00/monacoin-wallet-new
+Hvis du vil bidrage til Sakuracoin Wallet, kan projektet findes på
+https://github.com/ohac/sakuracoin-wallet
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Sakuracoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

@@ -1,23 +1,23 @@
-Носите биткоины всегда с собой, в кармане! Платите быстро, сканируя QR-код. Будучи продавцом, получайте платежи быстро и надёжно. Бумажник Monacoin — первое мобильное приложение для Monacoin и, возможно, самое безопасное!
+Носите биткоины всегда с собой, в кармане! Платите быстро, сканируя QR-код. Будучи продавцом, получайте платежи быстро и надёжно. Бумажник Sakuracoin — первое мобильное приложение для Sakuracoin и, возможно, самое безопасное!
 
 ВОЗМОЖНОСТИ:
 
 • Не нужна ни регистрация, ни веб-сервис, ни облако! Этот бумажник децентрализован и является p2p.
-• Отображение количества биткоинов в MONA и mMONA.
+• Отображение количества биткоинов в SKR и mSKR.
 • Конверсия в и из легитимных валют.
-• Поддержка отправки и получения средств через NFC, QR-коды или Monacoin URL.
+• Поддержка отправки и получения средств через NFC, QR-коды или Sakuracoin URL.
 • Адресная книга часто используемых адресов.
 • Когда вы не в сети, вы можете платить через Bluetooth.
 • Системные уведомления о получаемых монетах.
-• Виджет для отображения баланса Monacoin.
+• Виджет для отображения баланса Sakuracoin.
 
-Вы можете узнать больше о Monacoin на
-http://monacoin.org
+Вы можете узнать больше о Sakuracoin на
+http://sakuracoin.org
 
-Если вы хотите помочь бумажнику Monacoin, проект располагается по адресу
-https://github.com/keystore00/monacoin-wallet-new
+Если вы хотите помочь бумажнику Sakuracoin, проект располагается по адресу
+https://github.com/ohac/sakuracoin-wallet
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Sakuracoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

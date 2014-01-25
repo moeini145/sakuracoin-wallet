@@ -4,11 +4,11 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			I den övre vänstra delen av skärmen kan du se den Monacoin adress som andra behöver för att kunna skicka Monacoins till dig.
-			Tryck med fingret på adressen för att skaffa dig en ny Monacoin adress.
+			I den övre vänstra delen av skärmen kan du se den Sakuracoin adress som andra behöver för att kunna skicka Sakuracoins till dig.
+			Tryck med fingret på adressen för att skaffa dig en ny Sakuracoin adress.
 		</p>
 		<p>
-			QR koden till höger innehåller din Monacoin adress och kan scannas av de som vill skicka dig Monacoins.
+			QR koden till höger innehåller din Sakuracoin adress och kan scannas av de som vill skicka dig Sakuracoins.
 			Tryck med fingret på QR koden så visas en större version av den.
 		</p>
 		<p>
@@ -23,7 +23,7 @@
 			Dra med fingret åt vänster eller höger för att filtrera listan.
 		</p>
 		<p>
-			Du kan sända eller ta emot Monacoins genom att trycka med fingret på knapparna i aktivitetslistan.
+			Du kan sända eller ta emot Sakuracoins genom att trycka med fingret på knapparna i aktivitetslistan.
 			Fler val är möjliga i menyn.
 		</p>
 	]]>
@@ -31,43 +31,43 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Med denna dialog kan du ta emot Monacoins från någon annan (som redan har Monacoin Wallet installerad på sin telefon).
+			Med denna dialog kan du ta emot Sakuracoins från någon annan (som redan har Sakuracoin Wallet installerad på sin telefon).
 		</p>
 		<p>
-			Först anger du hur många Monacoins du vill att de skickar.
+			Först anger du hur många Sakuracoins du vill att de skickar.
 		</p>
 		<p>
 			Sedan kan den andra personen scanna QR koden.
-			Eller så använder du "Dela" knappen i aktivitetslistan för att skicka din uppmaning att skicka Monacoins.
-			Den andra personen behöver sedan bara klicka på den Monacoin URL du skickat.
+			Eller så använder du "Dela" knappen i aktivitetslistan för att skicka din uppmaning att skicka Sakuracoins.
+			Den andra personen behöver sedan bara klicka på den Sakuracoin URL du skickat.
 		</p>
 		<p>
 			Sedan kommer den andra personen att få se en dialogruta där alla fält redan är ifyllda.
-			Om han eller hon sedan accapterar transaktionen så skickas Monacoins till dig.
+			Om han eller hon sedan accapterar transaktionen så skickas Sakuracoins till dig.
 		</p>
 	]]>
 	</string>
 	<string name="help_send_coins">
 <![CDATA[
 		<p>
-			Du har påbörjat skickandet av Monacoins.
-			Du kom hit endera från huvudskärmen eller genom att klicka på en Monacoin URL i din webbläsare.
+			Du har påbörjat skickandet av Sakuracoins.
+			Du kom hit endera från huvudskärmen eller genom att klicka på en Sakuracoin URL i din webbläsare.
 		</p>
 		<p>
-			Ange först vilken Monacoin adress du vill skicka till.
+			Ange först vilken Sakuracoin adress du vill skicka till.
 			Adressen kan automatiskt fyllas i om den börjar med någon av adresserna i din adressbok.
-			Du kan också scanna en QR kod innehållande en Monacoin adress, genom att trycka på QR knappen i aktivitetslistan.
+			Du kan också scanna en QR kod innehållande en Sakuracoin adress, genom att trycka på QR knappen i aktivitetslistan.
 		</p>
 		<p>
-			Sedan kan du se hur många Monacoins du för tillfället kan skicka.
+			Sedan kan du se hur många Sakuracoins du för tillfället kan skicka.
 			Om det antalet skiljer sig från det som visas på huvudskärmen, så beror det på hittills obekräftade överföringar som du ännu inte får använda.
 		</p>
 		<p>
-			Slutligen anger du hur många Monacoins du vill skicka vill betalar.
+			Slutligen anger du hur många Sakuracoins du vill skicka vill betalar.
 		</p>
 		<p>
 			Du kan skapa en transaktion även om du inte är online.
-			Den kommer att skickas nästa gång Monacoin Wallet startas.
+			Den kommer att skickas nästa gång Sakuracoin Wallet startas.
 			Om du vill att en transaktion ska processas så fort som möjligt, se till att ha bra koppling till internet (exempelvis ett WLAN).
 		</p>
 		<p>
@@ -80,20 +80,20 @@
 	<string name="help_safety">
 <![CDATA[
 		<p>
-			<b>Några ord om säkerhet och Monacoins:</n>
+			<b>Några ord om säkerhet och Sakuracoins:</n>
 		</p>
 		<p>
-			Dina Monacoins i Monacoin Wallet sparas på din Android telefon.
-			<b>Om du tappar bort din telefon, så tappar du bort dina Monacoins.</b>
+			Dina Sakuracoins i Sakuracoin Wallet sparas på din Android telefon.
+			<b>Om du tappar bort din telefon, så tappar du bort dina Sakuracoins.</b>
 			Precis som pengar i din vanliga plånbok.
 		</p>
 		<p>
-			<b>Innan du avinstallerar Monacoin Wallet</b> (eller tar bort appens data/rensar din telefon), <b>skicka dina Monacoins till en annan plånbok</b>.
-			Alla kvarvarande Monacoins kommer att försvinna.
+			<b>Innan du avinstallerar Sakuracoin Wallet</b> (eller tar bort appens data/rensar din telefon), <b>skicka dina Sakuracoins till en annan plånbok</b>.
+			Alla kvarvarande Sakuracoins kommer att försvinna.
 		</p>
 		<p>
 			<b>Transaktioner kan inte stoppas</b>.
-			Efter att du skickat Monacoins finns det inget sätt att få dem tillbaka, annat än om du vet vem mottagaren är, och han/hon skickar dem tillbaka.
+			Efter att du skickat Sakuracoins finns det inget sätt att få dem tillbaka, annat än om du vet vem mottagaren är, och han/hon skickar dem tillbaka.
 		</p>
 		<p>
 			<b>Se till att skydda din telefon!</b>
@@ -102,7 +102,7 @@
 		</p>
 		<p>
 			Utsätt dig inte för onödig risk!
-			<b>Använd bara Monacoin Wallet med mindre belopp</b> för daglig användning.
+			<b>Använd bara Sakuracoin Wallet med mindre belopp</b> för daglig användning.
 		</p>
 	]]>
 	</string>

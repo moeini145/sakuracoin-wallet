@@ -1,23 +1,23 @@
-Miej swoje Monacoiny zawsze w swojej kieszeni! Zapłacisz skanując kod QR. Jako sprzedawca odbierzesz płatności niezawodnie i natychmiastowo. Monacoin Wallet jest pierwszą aplikacją Monacoinową na telefony i niezaprzeczalnie najbezpieczniejszą.
+Miej swoje Sakuracoiny zawsze w swojej kieszeni! Zapłacisz skanując kod QR. Jako sprzedawca odbierzesz płatności niezawodnie i natychmiastowo. Sakuracoin Wallet jest pierwszą aplikacją Sakuracoinową na telefony i niezaprzeczalnie najbezpieczniejszą.
 
 WŁAŚCIWOŚCI:
 
 • Brak konieczności rejestracji, serwisu online lub chmury! Ten portfel używa zdecentralizowanej sieci peer-to-peer.
-• Wyświetl ilość kwotę w MONA i mMONA.
+• Wyświetl ilość kwotę w SKR i mSKR.
 • Zamiana z i na waluty narodowe
-• Wysyłąnie i odbieranie Monacoin za pomocą NFC, kodów QR czy adresów Monacoin URL.
-• Książka adresowa dla regularnie używanych adresów Monacoin.
+• Wysyłąnie i odbieranie Sakuracoin za pomocą NFC, kodów QR czy adresów Sakuracoin URL.
+• Książka adresowa dla regularnie używanych adresów Sakuracoin.
 • Gdy jesteś offline, wciąż możesz zapłacić przy użyciu Bluetooth.
 • System powiadomień dla przychodzących transakcji.
 • Widget aplikacji dla stanu konta.
 
-Dowiedz się więcej o Monacoin
-http://monacoin.org
+Dowiedz się więcej o Sakuracoin
+http://sakuracoin.org
 
-Jeśli chcesz przyczynić się do rozwoju Monacoin Wallet to projekt znajduje się pod adresem
-https://github.com/keystore00/monacoin-wallet-new
+Jeśli chcesz przyczynić się do rozwoju Sakuracoin Wallet to projekt znajduje się pod adresem
+https://github.com/ohac/sakuracoin-wallet
 
-This is a fork of the popular Monacoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
+This is a fork of the popular Sakuracoin Wallet by Andreas Schildbach and was converted to Sakuracoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 Licencja: GPLv3

@@ -4,11 +4,11 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			Po lewej górnej stronie ekranu wyświetlany jest Twój aktualnie wybrany adres Monacoin, który inne osoby muszą znać żeby wysłać Ci Monacoin.
+			Po lewej górnej stronie ekranu wyświetlany jest Twój aktualnie wybrany adres Sakuracoin, który inne osoby muszą znać żeby wysłać Ci Sakuracoin.
 			Naciśnij żeby, go zmienić.
 		</p>
 		<p>
-			Kod QR po prawej zawiera Twój adres Monacoin i może zeskanowany przez inną osobę.
+			Kod QR po prawej zawiera Twój adres Sakuracoin i może zeskanowany przez inną osobę.
 			Naciśnij na kod QR żeby otrzymać jego większą wersje.
 		</p>
 		<p>
@@ -31,18 +31,18 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Przy pomocy tego dialogu, możesz wysłać prośbę o Monacoiny do innej osoby, tak jakbyś wystawił jej rachunek do zapłacenia. Osoba ta powinna mieć zainstalowany Monacoin Wallet.
+			Przy pomocy tego dialogu, możesz wysłać prośbę o Sakuracoiny do innej osoby, tak jakbyś wystawił jej rachunek do zapłacenia. Osoba ta powinna mieć zainstalowany Sakuracoin Wallet.
 		</p>
 		<p>
-			U góry, wpisz kwotę Monacoin, o którą chcesz zapytać.
+			U góry, wpisz kwotę Sakuracoin, o którą chcesz zapytać.
 		</p>
 		<p>
 			Potem osoba wczyta wytworzony kod QR,
 			albo Ty możesz wysłać rachunek za pomocą guzika Opublikuj na listwie menu.
-			Odbiorca będzie musiał otworzyć Monacoin URL zawarty w wysłanej wiadomości.
+			Odbiorca będzie musiał otworzyć Sakuracoin URL zawarty w wysłanej wiadomości.
 		</p>
 		<p>
-			Osoba, która otrzymała wysłane zapytanie otrzyma gotowy i wypełniony formularz wysyłania Monacoinów.
+			Osoba, która otrzymała wysłane zapytanie otrzyma gotowy i wypełniony formularz wysyłania Sakuracoinów.
 			Jedyne co będzie musiała zrobić to potwierdzenie transakcji.
 		</p>
 	]]>
@@ -51,15 +51,15 @@
 <![CDATA[
 		<p>
 			Zainicjowałeś proces wysyłania monet.
-			Przyszedłeś tutaj przez główny ekran albo naciskając na Monacoin URL w Twojej mobilnej przeglądarce.
+			Przyszedłeś tutaj przez główny ekran albo naciskając na Sakuracoin URL w Twojej mobilnej przeglądarce.
 		</p>
 		<p>
-			Wpisz adres Monacoin na który ma wpłynąć zapłata.
+			Wpisz adres Sakuracoin na który ma wpłynąć zapłata.
 			Wyświetlone zostaną podpowiedzi adresu z danych Twojej książki adresowej.
-			Możesz też skanować kody QR z adresami Monacoin albo zapytaniami Monacoin naciskając guzik QR w menu.
+			Możesz też skanować kody QR z adresami Sakuracoin albo zapytaniami Sakuracoin naciskając guzik QR w menu.
 		</p>
 		<p>
-			Poniżej widzisz ile Monacoin możesz wydać w tym momencie.
+			Poniżej widzisz ile Sakuracoin możesz wydać w tym momencie.
 			Rożnica ze stanem konta na głównym ekranie wynika z jeszcze nie potwierdzonych monet, które nie mogą jeszcze zostać wydane.
 		</p>
 		<p>
@@ -80,20 +80,20 @@
 	<string name="help_safety">
 <![CDATA[
 		<p>
-			<b>Pare słów o bezpieczeństwie twoich Monacoin:</b>
+			<b>Pare słów o bezpieczeństwie twoich Sakuracoin:</b>
 		</p>
 		<p>
-			Monacoin w Monacoin Wallet są magazynowane na urządzeniu.
-			<b>Jak zgubisz swoje urządzenie, zgubisz też swój portfel i Monacoiny.</b>
+			Sakuracoin w Sakuracoin Wallet są magazynowane na urządzeniu.
+			<b>Jak zgubisz swoje urządzenie, zgubisz też swój portfel i Sakuracoiny.</b>
 			Zupełnie jak pieniądze w Twoim fizycznym portfelu.
 		</p>
 		<p>
-			<b>Zanim odinstalujesz Monacoin Wallet</b> (albo wymażesz dane aplikacji/wyczyścisz swoje urządzenie), <b>przetransferuj twoje Monacoin na inny portfel</b>.
-			Każdy pozostały Monacoin będzie stracony.
+			<b>Zanim odinstalujesz Sakuracoin Wallet</b> (albo wymażesz dane aplikacji/wyczyścisz swoje urządzenie), <b>przetransferuj twoje Sakuracoin na inny portfel</b>.
+			Każdy pozostały Sakuracoin będzie stracony.
 		</p>
 		<p>
 			<b>Żadne transakcje nie mogą zostać cofnięte</b>.
-			Jeżeli wyślesz swoje Monacoiny, nie będzie już możliwości żeby je odzyskać, dopóki nie znasz odbiorcy, który musi godzić się na ich odesłanie.
+			Jeżeli wyślesz swoje Sakuracoiny, nie będzie już możliwości żeby je odzyskać, dopóki nie znasz odbiorcy, który musi godzić się na ich odesłanie.
 		</p>
 		<p>
 			<b>Uważaj na swoje urządzenie Android!</b>
@@ -102,7 +102,7 @@
 		</p>
 		<p>
 			Utrzymuj niskie ryzyko!
-			<b>Używaj Monacoin Wallet do przetrzymywania jedynie małych ilości Monacoin</b> do użytku codziennego.
+			<b>Używaj Sakuracoin Wallet do przetrzymywania jedynie małych ilości Sakuracoin</b> do użytku codziennego.
 		</p>
 	]]>
 	</string>

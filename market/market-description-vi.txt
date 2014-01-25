@@ -1,22 +1,22 @@
-Với ứng dụng này thì các Monacoin sẽ luôn trong tầm kiểm soát của riêng bạn! Bạn có thể gửi các khoản chi trả thông qua thao tác cực kỳ đơn giản đó là quét mã dạng QR hoặc bằng cách chạm hai điện thoại vào nhau (NFC). Monacoin Wallet được thiết với nguyên lý dễ dàng, tiện lợi, đáng tin tưởng, cũng như cực kỳ nhanh lẹ và đảm bảo an toàn cho người dùng.
+Với ứng dụng này thì các Sakuracoin sẽ luôn trong tầm kiểm soát của riêng bạn! Bạn có thể gửi các khoản chi trả thông qua thao tác cực kỳ đơn giản đó là quét mã dạng QR hoặc bằng cách chạm hai điện thoại vào nhau (NFC). Sakuracoin Wallet được thiết với nguyên lý dễ dàng, tiện lợi, đáng tin tưởng, cũng như cực kỳ nhanh lẹ và đảm bảo an toàn cho người dùng.
 
 TÍNH NĂNG:
 
 • Không cần có cloud server hoặc dịch vụ web bổ sung nào cả! Ví tiền của bạn được kết nối thông qua sự lựa chọn của bạn trong kết nối mang ngang hàng lẫn nhau.
-• Hiển thị trạng thái cân bằng tài khoản giữa Monacoin và các loại tiền tệ khác.
-• Gửi và nhận Monacoin thông qua NFC, mã dạng QR hoặc đường dẫn liên kết dạng Monacoin.
-• Sổ địa chỉ đối với các địa chỉ Monacoin thường sử dụng.
+• Hiển thị trạng thái cân bằng tài khoản giữa Sakuracoin và các loại tiền tệ khác.
+• Gửi và nhận Sakuracoin thông qua NFC, mã dạng QR hoặc đường dẫn liên kết dạng Sakuracoin.
+• Sổ địa chỉ đối với các địa chỉ Sakuracoin thường sử dụng.
 • Tham gia tiến trình giao dịch ngay khi không có kết nối mạng, và sẽ thực hiện kết nối ngay khi có mạng.
-• Thông báo trong hệ thống theo tính nhanh gọn về số lượng Monacoin nhận và gửi đi.
-• Tiện ích dành riêng cho Monacoin.
+• Thông báo trong hệ thống theo tính nhanh gọn về số lượng Sakuracoin nhận và gửi đi.
+• Tiện ích dành riêng cho Sakuracoin.
 
-Bạn có thể tìm hiểu thêm về Monacoin tại
-http://monacoin.org
+Bạn có thể tìm hiểu thêm về Sakuracoin tại
+http://sakuracoin.org
 
-Nếu bạn có ý tưởng đóng góp cho Monacoin Wallet, hãy truy cập vào trang web
-https://github.com/keystore00/monacoin-wallet-new
+Nếu bạn có ý tưởng đóng góp cho Sakuracoin Wallet, hãy truy cập vào trang web
+https://github.com/ohac/sakuracoin-wallet
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Sakuracoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

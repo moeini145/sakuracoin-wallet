@@ -11,12 +11,12 @@ FEATURES:
 • וידגט להצגת יתרה.
 
 בהתקנה ראשונה עלול להיראות מסך לבן לזמן מה, הדבר תקין.
-לפרטים נוספים : http://monacoin.org
+לפרטים נוספים : http://sakuracoin.org
 
 הארנק הוא פרויקט בקוד פתוח בגוגל, אם ברצונך לתרום:
-https://github.com/keystore00/monacoin-wallet-new
+https://github.com/ohac/sakuracoin-wallet
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Sakuracoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

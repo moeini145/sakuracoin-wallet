@@ -1,21 +1,21 @@
-Tato aplikace je peněženka s Monacoiny pro systém Android. Můžete posílat Monacoiny mezi telefony prostým naskenováním QR kódu, který je zobrazen aplikací, nebo pomocí NFC (Near Field Communication).
+Tato aplikace je peněženka s Sakuracoiny pro systém Android. Můžete posílat Sakuracoiny mezi telefony prostým naskenováním QR kódu, který je zobrazen aplikací, nebo pomocí NFC (Near Field Communication).
 
 VLASTNOSTI:
 
-• Zobrazení zůstatku peněženky v Monacoinech a několika jiných měnách.
-• Odesílání a přijímání Monacoinů pomocí NFC, QR-kódů, nebo Monacoin adres.
+• Zobrazení zůstatku peněženky v Sakuracoinech a několika jiných měnách.
+• Odesílání a přijímání Sakuracoinů pomocí NFC, QR-kódů, nebo Sakuracoin adres.
 • Adresář pro často používané adresy.
 • Možnost zadávání transakcí v offline režimu, k jejich zpracování dojde po připojení.
-• Oznamování v liště při synchronizaci a při přijetí Monacoinů.
+• Oznamování v liště při synchronizaci a při přijetí Sakuracoinů.
 • Widget s celkovým zůstatkem.
 
-Více informací o Monacoinech
-http://monacoin.org
+Více informací o Sakuracoinech
+http://sakuracoin.org
 
-Pokud chcete přispět do projektu Monacoin Wallet, naleznete jej na adrese
-https://github.com/keystore00/monacoin-wallet-new
+Pokud chcete přispět do projektu Sakuracoin Wallet, naleznete jej na adrese
+https://github.com/ohac/sakuracoin-wallet
 
-This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Monacoin by me.
+This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Sakuracoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 

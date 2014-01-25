@@ -4,7 +4,7 @@
 	<string name="symbol_to">→</string>
 	<string name="symbol_from">←</string>
 	<string name="symbol_internal">⇄</string>
-	<string name="app_name">Monacoin Wallet</string>
+	<string name="app_name">Sakuracoin Wallet</string>
 
 	<string-array name="preferences_precision_values">
 		<item>8</item>
@@ -13,10 +13,10 @@
 		<item>2/3</item>
 	</string-array>
 	<string-array name="preferences_precision_labels">
-		<item>MONA, 8 digits</item>
-		<item>MONA, 6 digits</item>
-		<item>MONA, 4 digits</item>
-		<item>mMONA, 2 digits</item>
+		<item>SKR, 8 digits</item>
+		<item>SKR, 6 digits</item>
+		<item>SKR, 4 digits</item>
+		<item>mSKR, 2 digits</item>
 	</string-array>
 
 </resources>
