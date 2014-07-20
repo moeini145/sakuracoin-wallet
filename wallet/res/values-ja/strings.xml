@@ -218,7 +218,7 @@
 	<string name="button_send_coins">送金</string>
 	<string name="button_scan">スキャン</string>
 	<string name="button_edit_address">追加/編集</string>
-	<string name="action_open_blockexplorer">sakuracoin.orgで開く</string>
+	<string name="action_open_blockexplorer">block explorerで開く</string>
 	<string name="time_today">今日</string>
 	<string name="address_unlabeled">(ラベルなし)</string>
 

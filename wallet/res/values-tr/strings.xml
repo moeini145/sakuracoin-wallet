@@ -205,7 +205,7 @@
 	<string name="button_send_coins">Sakuracoin gönder</string>
 	<string name="button_scan">Tara</string>
 	<string name="button_edit_address">Adres ilâve et/düzenle</string>
-	<string name="action_open_blockexplorer">sakuracoin.org\'da aç</string>
+	<string name="action_open_blockexplorer">block explorer\'da aç</string>
 	<string name="time_today">bugün</string>
 	<string name="address_unlabeled">(etiketsiz)</string>
 
