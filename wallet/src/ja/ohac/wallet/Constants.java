@@ -80,35 +80,35 @@ public class Constants
 	public static final int MBTC_MAX_PRECISION = 5;
 	public static final int LOCAL_PRECISION = 4;
 
-        public static final String DONATION_ADDRESS = "MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY";
-        public static final String REPORT_EMAIL = "ohachige@gmail.com";
+	public static final String DONATION_ADDRESS = "MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY";
+	public static final String REPORT_EMAIL = "ohachige@gmail.com";
 	public static final String REPORT_SUBJECT_ISSUE = "Reported issue";
 	public static final String REPORT_SUBJECT_CRASH = "Crash report";
 
 	public static final String LICENSE_URL = "http://www.gnu.org/licenses/gpl-3.0.txt";
-        public static final String SOURCE_URL = "https://github.com/ohac/sakuracoin-wallet";
+	public static final String SOURCE_URL = "https://github.com/ohac/sakuracoin-wallet";
 	public static final String BINARY_URL = "http://code.google.com/p/"; //TODO
-        public static final String CREDITS_BITCOINJ_URL = "http://github.com/ohac/sakuracoinj";
+	public static final String CREDITS_BITCOINJ_URL = "http://github.com/ohac/sakuracoinj";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing";
-        public static final String CREDITS_ICON_URL = "http://sakuracoin.org/";  //TODO
-        public static final String AUTHOR_TWITTER_URL = "https://twitter.com/ohac";
-        public static final String AUTHOR_GOOGLEPLUS_URL = "";  //TODO
+	public static final String CREDITS_ICON_URL = "http://sakuracoin.org/"; //TODO
+	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/ohac";
+	public static final String AUTHOR_GOOGLEPLUS_URL = ""; //TODO
 	public static final String COMMUNITY_GOOGLEPLUS_URL = ""; //TODO
 	public static final String MARKET_APP_URL = "market://details?id=%s";
-        public static final String WEBMARKET_APP_URL = "https://play.google.com/store/apps/details?id=%s";  //TODO
-        public static final String MARKET_PUBLISHER_URL = "market://search?q=pub:";  //TODO
+	public static final String WEBMARKET_APP_URL = "https://play.google.com/store/apps/details?id=%s"; //TODO
+	public static final String MARKET_PUBLISHER_URL = "market://search?q=pub:"; //TODO
 
-        public static final String VERSION_URL = "";  //TODO
+	public static final String VERSION_URL = ""; //TODO
 	public static final int HTTP_TIMEOUT_MS = 15 * (int) DateUtils.SECOND_IN_MILLIS;
 
 	public static final String PREFS_KEY_LAST_VERSION = "last_version";
 	public static final String PREFS_KEY_LAST_USED = "last_used";
 	public static final String PREFS_KEY_BEST_CHAIN_HEIGHT_EVER = "best_chain_height_ever";
 	public static final String PREFS_KEY_ALERT_OLD_SDK_DISMISSED = "alert_old_sdk_dismissed";
-    public static final String PREFS_KEY_REMIND_BACKUP = "remind_backup";
-    public static final String PREFS_KEY_AUTOSYNC_SWITCH = "auto_sync_switch";
-    public static final String PREFS_KEY_AUTOSYNC_CHARGE = "auto_sync_charging";
-    public static final String PREFS_KEY_AUTOSYNC_WIFI = "auto_sync_wifi";
+	public static final String PREFS_KEY_REMIND_BACKUP = "remind_backup";
+	public static final String PREFS_KEY_AUTOSYNC_SWITCH = "auto_sync_switch";
+	public static final String PREFS_KEY_AUTOSYNC_CHARGE = "auto_sync_charging";
+	public static final String PREFS_KEY_AUTOSYNC_WIFI = "auto_sync_wifi";
 
 	public static final String PREFS_KEY_CONNECTIVITY_NOTIFICATION = "connectivity_notification";
 	public static final String PREFS_KEY_SELECTED_ADDRESS = "selected_address";
@@ -124,9 +124,9 @@ public class Constants
 	public static final long LAST_USAGE_THRESHOLD_RECENTLY_MS = 2 * DateUtils.DAY_IN_MILLIS;
 
 	public static final int SDK_JELLY_BEAN = 16;
-        public static final int SDK_JELLY_BEAN_MR2 = 18;
-        public static final int SDK_KITKAT = 19;
-    
+	public static final int SDK_JELLY_BEAN_MR2 = 18;
+	public static final int SDK_KITKAT = 19;
+
 	public static final int MEMORY_CLASS_LOWEND = 48;
 
 	public static final Charset UTF_8 = Charset.forName("UTF-8");

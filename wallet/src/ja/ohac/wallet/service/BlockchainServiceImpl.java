@@ -176,7 +176,7 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 		{
 			transactionsReceived.incrementAndGet();
 		}
-    };
+	};
 
 	private void notifyCoinsReceived(@Nullable final Address from, @Nonnull final BigInteger amount)
 	{
@@ -405,13 +405,13 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 
 				peerGroup.addPeerDiscovery(new PeerDiscovery()
 				{
-                    //Try a bit harder to find good peers...
-                    Random rand = new Random();
-                    int i = rand.nextInt(50);
-                    String channel = "#sakuracoin" + String.format("%02d", i);
-                    private final PeerDiscovery normalPeerDiscovery = new DnsDiscovery(Constants.NETWORK_PARAMETERS);
-				    //private final PeerDiscovery normalPeerDiscovery = new IrcDiscovery(channel);//  TODO
-                    private final PeerDiscovery seedPeers = new SeedPeers(Constants.NETWORK_PARAMETERS);
+					//Try a bit harder to find good peers...
+					Random rand = new Random();
+					int i = rand.nextInt(50);
+					String channel = "#sakuracoin" + String.format("%02d", i);
+					private final PeerDiscovery normalPeerDiscovery = new DnsDiscovery(Constants.NETWORK_PARAMETERS);
+					//private final PeerDiscovery normalPeerDiscovery = new IrcDiscovery(channel); // TODO
+					private final PeerDiscovery seedPeers = new SeedPeers(Constants.NETWORK_PARAMETERS);
 
 					@Override
 					public InetSocketAddress[] getPeers(final long timeoutValue, final TimeUnit timeoutUnit) throws PeerDiscoveryException
@@ -433,21 +433,21 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 						}
 
 						if (!connectTrustedPeerOnly)
-                        {
-                            List discoveredpeers;
-                            try {
-                                discoveredpeers = Arrays.asList(seedPeers.getPeers(timeoutValue, timeoutUnit));
-                                peers.addAll(discoveredpeers);
-                            } catch (PeerDiscoveryException e) {
-                                log.info(this.getClass().toString(), "Failed to discover peers: " + e.getMessage());
-                            }
-                            try {
-                                discoveredpeers = Arrays.asList(normalPeerDiscovery.getPeers(timeoutValue, timeoutUnit));
-                                peers.addAll(discoveredpeers);
-                            } catch (PeerDiscoveryException e) {
-                                log.info(this.getClass().toString(), "Failed to discover peers: " + e.getMessage());
-                            }
-                        }
+						{
+							List discoveredpeers;
+							try {
+								discoveredpeers = Arrays.asList(seedPeers.getPeers(timeoutValue, timeoutUnit));
+								peers.addAll(discoveredpeers);
+							} catch (PeerDiscoveryException e) {
+								log.info(this.getClass().toString(), "Failed to discover peers: " + e.getMessage());
+							}
+							try {
+								discoveredpeers = Arrays.asList(normalPeerDiscovery.getPeers(timeoutValue, timeoutUnit));
+								peers.addAll(discoveredpeers);
+							} catch (PeerDiscoveryException e) {
+								log.info(this.getClass().toString(), "Failed to discover peers: " + e.getMessage());
+							}
+						}
 
 						// workaround because PeerGroup will shuffle peers
 						if (needsTrimPeersWorkaround)

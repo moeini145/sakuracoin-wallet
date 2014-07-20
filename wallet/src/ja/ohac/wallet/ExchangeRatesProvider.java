@@ -81,7 +81,7 @@ public class ExchangeRatesProvider extends ContentProvider
 	@CheckForNull
 	private Map<String, ExchangeRate> exchangeRates = null;
 	private long lastUpdated = 0;
-    private float sakuraBtcConversion = -1;
+	private float sakuraBtcConversion = -1;
 
 	private static final URL BITCOINAVERAGE_URL;
 	private static final String[] BITCOINAVERAGE_FIELDS = new String[] { "24h_avg" };
@@ -89,7 +89,7 @@ public class ExchangeRatesProvider extends ContentProvider
 	private static final String[] BITCOINCHARTS_FIELDS = new String[] { "24h", "7d", "30d" };
 	private static final URL BLOCKCHAININFO_URL;
 	private static final String[] BLOCKCHAININFO_FIELDS = new String[] { "15m" };
-    private static final URL SAKURAPOOL_URL;
+	private static final URL SAKURAPOOL_URL;
 
 	// https://bitmarket.eu/api/ticker
 
@@ -99,8 +99,8 @@ public class ExchangeRatesProvider extends ContentProvider
 		{
 			BITCOINAVERAGE_URL = new URL("https://api.bitcoinaverage.com/ticker/all");
 			BITCOINCHARTS_URL = new URL("http://api.bitcoincharts.com/v1/weighted_prices.json");
-            BLOCKCHAININFO_URL = new URL("https://blockchain.info/ticker");
-            SAKURAPOOL_URL = new URL("http://sakurapool.com/lastsakura"); // TODO
+			BLOCKCHAININFO_URL = new URL("https://blockchain.info/ticker");
+			SAKURAPOOL_URL = new URL("http://sakurapool.com/lastsakura"); // TODO
 		}
 		catch (final MalformedURLException x)
 		{
@@ -130,16 +130,16 @@ public class ExchangeRatesProvider extends ContentProvider
 
 		if (exchangeRates == null || now - lastUpdated > UPDATE_FREQ_MS)
 		{
-	    float newSakuraBtcConversion = 0; //TODO
-            if (sakuraBtcConversion == -1 && newSakuraBtcConversion == -1)
-                newSakuraBtcConversion = requestSakuraBtcConversion(SAKURAPOOL_URL);
+			float newSakuraBtcConversion = 0; //TODO
+			if (sakuraBtcConversion == -1 && newSakuraBtcConversion == -1)
+				newSakuraBtcConversion = requestSakuraBtcConversion(SAKURAPOOL_URL);
 
-            if (newSakuraBtcConversion != -1)
-                sakuraBtcConversion = newSakuraBtcConversion;
+			if (newSakuraBtcConversion != -1)
+				sakuraBtcConversion = newSakuraBtcConversion;
 
-	    sakuraBtcConversion = -1;  //TODO
-            if (sakuraBtcConversion == -1)
-                return null;
+			sakuraBtcConversion = -1; //TODO
+			if (sakuraBtcConversion == -1)
+				return null;
 
 			Map<String, ExchangeRate> newExchangeRates = null;
 			if (newExchangeRates == null)
@@ -194,7 +194,7 @@ public class ExchangeRatesProvider extends ContentProvider
 		return cursor;
 	}
 
-    private String defaultCurrencyCode()
+	private String defaultCurrencyCode()
 	{
 		try
 		{
@@ -279,7 +279,7 @@ public class ExchangeRatesProvider extends ContentProvider
 								try
 								{
 									BigDecimal btcRate = new BigDecimal(GenericUtils.toNanoCoins(rate, 0));
-                                	BigInteger sakuraRate = btcRate.multiply(BigDecimal.valueOf(sakuraBtcConversion)).toBigInteger();
+									BigInteger sakuraRate = btcRate.multiply(BigDecimal.valueOf(sakuraBtcConversion)).toBigInteger();
 
 									if (sakuraRate.signum() > 0)
 									{
@@ -330,61 +330,61 @@ public class ExchangeRatesProvider extends ContentProvider
 		return null;
 	}
 
-    private static float requestSakuraBtcConversion(URL url) {
-        HttpURLConnection connection = null;
-        Reader reader = null;
+	private static float requestSakuraBtcConversion(URL url) {
+		HttpURLConnection connection = null;
+		Reader reader = null;
 
-        try
-        {
-            connection = (HttpURLConnection) url.openConnection();
-            connection.setConnectTimeout(Constants.HTTP_TIMEOUT_MS);
-            connection.setReadTimeout(Constants.HTTP_TIMEOUT_MS);
-            connection.connect();
+		try
+		{
+				connection = (HttpURLConnection) url.openConnection();
+				connection.setConnectTimeout(Constants.HTTP_TIMEOUT_MS);
+				connection.setReadTimeout(Constants.HTTP_TIMEOUT_MS);
+				connection.connect();
 
-            final int responseCode = connection.getResponseCode();
-            if (responseCode == HttpURLConnection.HTTP_OK)
-            {
-                reader = new InputStreamReader(new BufferedInputStream(connection.getInputStream(), 1024), Constants.UTF_8);
-                final StringBuilder content = new StringBuilder();
-                Io.copy(reader, content);
+				final int responseCode = connection.getResponseCode();
+				if (responseCode == HttpURLConnection.HTTP_OK)
+				{
+						reader = new InputStreamReader(new BufferedInputStream(connection.getInputStream(), 1024), Constants.UTF_8);
+						final StringBuilder content = new StringBuilder();
+						Io.copy(reader, content);
 
-                try
-                {
-                    return Float.parseFloat(content.toString());
-                } catch (NumberFormatException e)
-                {
-                    log.debug("Hm, looks like sakurapool changed their API...");
-                    return -1;
-                }
+						try
+						{
+								return Float.parseFloat(content.toString());
+						} catch (NumberFormatException e)
+						{
+								log.debug("Hm, looks like sakurapool changed their API...");
+								return -1;
+						}
 
-            }
-            else
-            {
-                log.debug("http status " + responseCode + " when fetching " + url);
-            }
-        }
-        catch (final Exception x)
-        {
-            log.debug("problem reading exchange rates", x);
-        }
-        finally
-        {
-            if (reader != null)
-            {
-                try
-                {
-                    reader.close();
-                }
-                catch (final IOException x)
-                {
-                    // swallow
-                }
-            }
+				}
+				else
+				{
+						log.debug("http status " + responseCode + " when fetching " + url);
+				}
+		}
+		catch (final Exception x)
+		{
+				log.debug("problem reading exchange rates", x);
+		}
+		finally
+		{
+				if (reader != null)
+				{
+						try
+						{
+								reader.close();
+						}
+						catch (final IOException x)
+						{
+								// swallow
+						}
+				}
 
-            if (connection != null)
-                connection.disconnect();
-        }
+				if (connection != null)
+						connection.disconnect();
+		}
 
-        return -1;
-    }
+		return -1;
+	}
 }

@@ -537,31 +537,31 @@ public class WalletApplication extends Application
 		final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 		final long prefsLastUsed = prefs.getLong(Constants.PREFS_KEY_LAST_USED, 0);
 
-        final long now = System.currentTimeMillis();
+		final long now = System.currentTimeMillis();
 
-        final long lastUsedAgo = now - prefsLastUsed;
-        final long alarmInterval;
-        if (lastUsedAgo < Constants.LAST_USAGE_THRESHOLD_JUST_MS)
-            alarmInterval = AlarmManager.INTERVAL_FIFTEEN_MINUTES;
-        else if (lastUsedAgo < Constants.LAST_USAGE_THRESHOLD_RECENTLY_MS)
-            alarmInterval = AlarmManager.INTERVAL_HALF_DAY;
-        else
-            alarmInterval = AlarmManager.INTERVAL_DAY;
+		final long lastUsedAgo = now - prefsLastUsed;
+		final long alarmInterval;
+		if (lastUsedAgo < Constants.LAST_USAGE_THRESHOLD_JUST_MS)
+			alarmInterval = AlarmManager.INTERVAL_FIFTEEN_MINUTES;
+		else if (lastUsedAgo < Constants.LAST_USAGE_THRESHOLD_RECENTLY_MS)
+			alarmInterval = AlarmManager.INTERVAL_HALF_DAY;
+		else
+			alarmInterval = AlarmManager.INTERVAL_DAY;
 
-        log.info("last used {} minutes ago, rescheduling sync in roughly {} minutes", lastUsedAgo / DateUtils.MINUTE_IN_MILLIS, alarmInterval
-                / DateUtils.MINUTE_IN_MILLIS);
+		log.info("last used {} minutes ago, rescheduling sync in roughly {} minutes", lastUsedAgo / DateUtils.MINUTE_IN_MILLIS, alarmInterval
+				/ DateUtils.MINUTE_IN_MILLIS);
 
-        final AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
-        final Intent startIntent = new Intent(context, AutosyncReceiver.class);
-        startIntent.setAction("ja.ohac.wallet.AUTOSYNC_ACTION");
-        final PendingIntent alarmIntent = PendingIntent.getBroadcast(context, 0, startIntent, 0);
-        alarmManager.cancel(alarmIntent);
-        
-//        if (Build.VERSION.SDK_INT >= Constants.SDK_KITKAT)
-//            // as of KitKat, set() is inexact
-//            alarmManager.set(AlarmManager.RTC_WAKEUP, now + alarmInterval, alarmIntent);
-//        else
-//            // workaround for no inexact set() before KitKat
-            alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, now + alarmInterval, alarmInterval, alarmIntent);
+		final AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+		final Intent startIntent = new Intent(context, AutosyncReceiver.class);
+		startIntent.setAction("ja.ohac.wallet.AUTOSYNC_ACTION");
+		final PendingIntent alarmIntent = PendingIntent.getBroadcast(context, 0, startIntent, 0);
+		alarmManager.cancel(alarmIntent);
+
+//		if (Build.VERSION.SDK_INT >= Constants.SDK_KITKAT)
+//		 	// as of KitKat, set() is inexact
+//			alarmManager.set(AlarmManager.RTC_WAKEUP, now + alarmInterval, alarmIntent);
+//		else
+//			// workaround for no inexact set() before KitKat
+		alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, now + alarmInterval, alarmInterval, alarmIntent);
 	}
 }
