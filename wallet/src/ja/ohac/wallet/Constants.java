@@ -51,8 +51,8 @@ public class Constants
 
 	public static final String CHECKPOINTS_FILENAME = "checkpoints" + FILENAME_NETWORK_SUFFIX;
 
-        private static final String BLOCKEXPLORER_BASE_URL_PROD = "http://sakuracoin.org/"; // TODO
-	private static final String BLOCKEXPLORER_BASE_URL_TEST = "http://sakuracoin.org/testnet/"; //TODO SKR: Not yet...
+	private static final String BLOCKEXPLORER_BASE_URL_PROD = "http://abe.sighash.info/";
+	private static final String BLOCKEXPLORER_BASE_URL_TEST = "http://tstabe.sighash.info/"; //TODO SKR: Not yet...
 	public static final String BLOCKEXPLORER_BASE_URL = NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET) ? BLOCKEXPLORER_BASE_URL_PROD
 			: BLOCKEXPLORER_BASE_URL_TEST;
 
