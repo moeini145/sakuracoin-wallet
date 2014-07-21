@@ -87,13 +87,13 @@ public class Constants
 
 	public static final String LICENSE_URL = "http://www.gnu.org/licenses/gpl-3.0.txt";
 	public static final String SOURCE_URL = "https://github.com/ohac/sakuracoin-wallet";
-	public static final String BINARY_URL = "http://code.google.com/p/"; //TODO
+	public static final String BINARY_URL = "https://github.com/ohac/sakuracoin-wallet/releases";
 	public static final String CREDITS_BITCOINJ_URL = "http://github.com/ohac/sakuracoinj";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing";
-	public static final String CREDITS_ICON_URL = "http://sakuracoin.org/"; //TODO
+	public static final String CREDITS_ICON_URL = "https://github.com/ohac/sakuracoin";
 	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/ohac";
-	public static final String AUTHOR_GOOGLEPLUS_URL = ""; //TODO
-	public static final String COMMUNITY_GOOGLEPLUS_URL = ""; //TODO
+	public static final String AUTHOR_GOOGLEPLUS_URL = "https://plus.google.com/117623896791375666835";
+	public static final String COMMUNITY_GOOGLEPLUS_URL = "https://plus.google.com/communities/102548334913117736165";
 	public static final String MARKET_APP_URL = "market://details?id=%s";
 	public static final String WEBMARKET_APP_URL = "https://play.google.com/store/apps/details?id=%s"; //TODO
 	public static final String MARKET_PUBLISHER_URL = "market://search?q=pub:"; //TODO

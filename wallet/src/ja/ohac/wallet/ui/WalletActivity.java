@@ -757,14 +757,15 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 	private void versionAlert(final int serverVersionCode)
 	{
 		final PackageManager pm = getPackageManager();
-		final Intent marketIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(String.format(Constants.MARKET_APP_URL, getPackageName())));
-		//final Intent binaryIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.BINARY_URL));
+		// final Intent marketIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(String.format(Constants.MARKET_APP_URL, getPackageName())));
+		final Intent binaryIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.BINARY_URL));
 
 		final AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setIcon(android.R.drawable.ic_dialog_alert);
 		builder.setTitle(R.string.wallet_version_dialog_title);
 		builder.setMessage(getString(R.string.wallet_version_dialog_msg));
 
+/*
 		if (pm.resolveActivity(marketIntent, 0) != null)
 		{
 			builder.setPositiveButton(R.string.wallet_version_dialog_button_market, new DialogInterface.OnClickListener()
@@ -777,8 +778,9 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 				}
 			});
 		}
+*/
 
-/*		if (pm.resolveActivity(binaryIntent, 0) != null)
+		if (pm.resolveActivity(binaryIntent, 0) != null)
 		{
 			builder.setNeutralButton(R.string.wallet_version_dialog_button_binary, new DialogInterface.OnClickListener()
 			{
@@ -789,7 +791,7 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 					finish();
 				}
 			});
-		}*/
+		}
 
 		builder.setNegativeButton(R.string.button_dismiss, null);
 		builder.show();
