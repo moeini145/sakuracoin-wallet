@@ -406,9 +406,6 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 				peerGroup.addPeerDiscovery(new PeerDiscovery()
 				{
 					//Try a bit harder to find good peers...
-					Random rand = new Random();
-					int i = rand.nextInt(50);
-					String channel = "#sakuracoin" + String.format("%02d", i);
 					private final PeerDiscovery normalPeerDiscovery = new DnsDiscovery(Constants.NETWORK_PARAMETERS);
 					private final PeerDiscovery seedPeers = new SeedPeers(Constants.NETWORK_PARAMETERS);
 
