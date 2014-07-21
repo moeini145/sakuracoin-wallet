@@ -112,8 +112,10 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 
 		setContentView(R.layout.wallet_content);
 
+/* TODO
 		if (savedInstanceState == null)
 			checkAlerts();
+*/
 
 		touchLastUsed();
 
