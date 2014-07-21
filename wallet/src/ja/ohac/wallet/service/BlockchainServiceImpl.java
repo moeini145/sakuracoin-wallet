@@ -432,13 +432,13 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 						{
 							List discoveredpeers;
 							try {
-								discoveredpeers = Arrays.asList(seedPeers.getPeers(timeoutValue, timeoutUnit));
+								discoveredpeers = Arrays.asList(normalPeerDiscovery.getPeers(timeoutValue, timeoutUnit));
 								peers.addAll(discoveredpeers);
 							} catch (PeerDiscoveryException e) {
 								log.info(this.getClass().toString(), "Failed to discover peers: " + e.getMessage());
 							}
 							try {
-								discoveredpeers = Arrays.asList(normalPeerDiscovery.getPeers(timeoutValue, timeoutUnit));
+								discoveredpeers = Arrays.asList(seedPeers.getPeers(timeoutValue, timeoutUnit));
 								peers.addAll(discoveredpeers);
 							} catch (PeerDiscoveryException e) {
 								log.info(this.getClass().toString(), "Failed to discover peers: " + e.getMessage());
