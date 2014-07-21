@@ -97,7 +97,7 @@ public class ExchangeRatesProvider extends ContentProvider
 	{
 		try
 		{
-			BITCOINAVERAGE_URL = new URL("https://api.bitcoinaverage.com/ticker/all");
+			BITCOINAVERAGE_URL = new URL("https://api.bitcoinaverage.com/ticker/global/all");
 			BITCOINCHARTS_URL = new URL("http://api.bitcoincharts.com/v1/weighted_prices.json");
 			BLOCKCHAININFO_URL = new URL("https://blockchain.info/ticker");
 			SAKURAPOOL_URL = new URL("http://www.sighash.info/api/1/lastprice/skr_btc");
