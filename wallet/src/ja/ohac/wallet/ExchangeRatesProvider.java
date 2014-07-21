@@ -100,7 +100,7 @@ public class ExchangeRatesProvider extends ContentProvider
 			BITCOINAVERAGE_URL = new URL("https://api.bitcoinaverage.com/ticker/all");
 			BITCOINCHARTS_URL = new URL("http://api.bitcoincharts.com/v1/weighted_prices.json");
 			BLOCKCHAININFO_URL = new URL("https://blockchain.info/ticker");
-			SAKURAPOOL_URL = new URL("http://sakurapool.com/lastsakura"); // TODO
+			SAKURAPOOL_URL = new URL("http://www.sighash.info/api/1/lastprice/skr_btc");
 		}
 		catch (final MalformedURLException x)
 		{
@@ -130,14 +130,13 @@ public class ExchangeRatesProvider extends ContentProvider
 
 		if (exchangeRates == null || now - lastUpdated > UPDATE_FREQ_MS)
 		{
-			float newSakuraBtcConversion = 0; //TODO
+			float newSakuraBtcConversion = -1;
 			if (sakuraBtcConversion == -1 && newSakuraBtcConversion == -1)
 				newSakuraBtcConversion = requestSakuraBtcConversion(SAKURAPOOL_URL);
 
 			if (newSakuraBtcConversion != -1)
 				sakuraBtcConversion = newSakuraBtcConversion;
 
-			sakuraBtcConversion = -1; //TODO
 			if (sakuraBtcConversion == -1)
 				return null;
 
